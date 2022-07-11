@@ -2,7 +2,7 @@
 
 ### by #TeamFiles™
 
-![Pixel Launcher M](/Other/Images/Banner/plm_banner.png)
+![Pixel Launcher M](/Other/Images/Banners/plm_banner.png)
 
 This is a mirror of my personal project folder for PLM, and is not organized as a single release.
 
