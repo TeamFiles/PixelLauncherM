@@ -4,11 +4,19 @@
 
 ![Pixel Launcher M](/Other/Images/Banners/plm_banner.png)
 
+#### v1.7.0-beta
+
+- This update is mostly to ensure compatibility with @saitama_96's new icon add-on, but a few other changes slipped in as well.
+
+- Updated to our latest themed icons.
+
+- A few more tweaks to permissions. My nemesis.
+
 #### v1.6.0-beta
 
 - Numerous changes. Still setting up the essentials...
 
-#### v1.3.0 and earlier
+#### v1.3.0-beta and earlier
 
 - Not recommended to install.
 

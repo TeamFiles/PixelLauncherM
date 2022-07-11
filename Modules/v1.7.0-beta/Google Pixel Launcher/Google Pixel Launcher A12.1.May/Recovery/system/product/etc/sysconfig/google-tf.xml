@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Pixel Launcher M modified file.
+Contact at https://t.me/GoriLovesYou for more info.
+-->
+<config>
+
+    <app-data-isolation-whitelisted-app package="com.google.android.gms" />
+    
+    <allow-association target="com.google.android.as" allowed="com.google.android.apps.nexuslauncher" />
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.nexuslauncher" />  
+    <allow-association target="com.google.android.apps.nexuslauncher" allowed="com.google.android.as" />
+    <allow-association target="com.google.android.apps.nexuslauncher" allowed="com.google.android.as.oss" />
+    
+    <allow-association target="com.google.android.gms" allowed="com.google.android.apps.nexuslauncher" />
+    <allow-association target="com.google.android.apps.nexuslauncher" allowed="com.google.android.gms" />
+    
+    <allow-association target="com.android.systemui" allowed="com.google.android.apps.nexuslauncher" />
+    <allow-association target="com.google.android.apps.nexuslauncher" allowed="com.android.systemui" />
+    
+    <allow-association target="com.google.android.providers.media.module" allowed="com.google.android.apps.nexuslauncher" />
+    <allow-association target="com.google.android.apps.nexuslauncher" allowed="com.google.android.providers.media.module" />
+    
+    <app-data-isolation-whitelisted-app package="com.google.android.as" />
+    <app-data-isolation-whitelisted-app package="com.google.android.as.oss" />
+    <app-data-isolation-whitelisted-app package="com.google.android.apps.nexuslauncher" />
+    <app-data-isolation-whitelisted-app package="com.google.android.googlequicksearchbox" /> 
+    
+    <allow-in-power-save package="com.google.android.app.nexuslauncher" />
+    <allow-in-data-usage-save package="com.google.android.apps.nexuslauncher" /> 
+    
+</config>

@@ -3,7 +3,7 @@ ui_print "    ------------------------------------------------ "
 ui_print "   |                                                |"
 ui_print "   |              Google Pixel Launcher             |"
 ui_print "   |                                                |"
-ui_print "   |                v1.6.0-beta-A12.0               |"
+ui_print "   |                v1.7.0-beta-A12.0               |"
 ui_print "   |                                                |"
 ui_print "   |                   #TeamFiles™                  |"
 ui_print "   |                                                |"
@@ -39,7 +39,8 @@ QS=$(find /system -name *QuickStep* | grep -v overlay | grep -v "\.")
 LW=$(find /system -name *MiuiHome* | grep -v overlay | grep -v "\.")
 TW=$(find /system -name *TouchWizHome* | grep -v overlay | grep -v "\.")
 KW=$(find /system -name *Lawnchair* | grep -v overlay | grep -v "\.")
-REMOVE="$REMOVE $PL $TR $QS $LW $TW $KW"
+OTHER="/system/product/overlay/PixelLauncherIconsOverlay"
+REMOVE="$REMOVE $PL $TR $QS $LW $TW $KW $OTHER"
 REMOVE="$(echo "$REMOVE" | tr ' ' '\n' | sort -u)"
 REPLACE="$REMOVE"
 rm -rf "/data/system/package_cache"

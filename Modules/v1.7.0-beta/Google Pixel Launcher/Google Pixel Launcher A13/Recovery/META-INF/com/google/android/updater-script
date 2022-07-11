@@ -3,7 +3,7 @@ ui_print("    ------------------------------------------------ ");
 ui_print("   |                                                |");
 ui_print("   |              Google Pixel Launcher             |");
 ui_print("   |                                                |");
-ui_print("   |                 v1.6.0-beta-A13                |");
+ui_print("   |                 v1.7.0-beta-A13                |");
 ui_print("   |                                                |");
 ui_print("   |                   #TeamFiles™                  |");
 ui_print("   |                                                |");
@@ -76,6 +76,8 @@ delete_recursive("/system_root/system/priv-app/Lawnfeed");
 delete_recursive("/product/priv-app/TrebuchetQuickStep");
 delete_recursive("/product/priv-app/ParanoidQuickStep");
 delete_recursive("/product/priv-app/ShadyQuickStep");
+
+delete_recursive("/system/product/overlay/PixelLauncherIconsOverlay");
 
 set_progress(0.50);
 
