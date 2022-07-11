@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="892.0dip"
+    android:width="412.0dip"
+    android:viewportWidth="412.0"
+    android:viewportHeight="892.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <group
+        android:name="_R_G">
+        <group
+            android:name="_R_G_L_1_G"
+            android:translateX="206.0"
+            android:translateY="879.5">
+            <path
+                android:name="_R_G_L_1_G_D_0_P_0"
+                android:fillColor="@color/gesture_tutorial_primary_color"
+                android:pathData=" M206 -12.5 C206,-12.5 206,12.5 206,12.5 C206,12.5 -206,12.5 -206,12.5 C-206,12.5 -206,-12.5 -206,-12.5 C-206,-12.5 206,-12.5 206,-12.5c "
+                android:fillAlpha="0.25"
+                android:fillType="nonZero" />
+        </group>
+        <group
+            android:name="_R_G_L_0_G"
+            android:translateX="206.0"
+            android:translateY="446.0" />
+    </group>
+    <group
+        android:name="time_group" />
+</vector>

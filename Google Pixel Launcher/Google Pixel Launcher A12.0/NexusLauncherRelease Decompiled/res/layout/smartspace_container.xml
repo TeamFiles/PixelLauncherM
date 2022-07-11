@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.smartspace.SmartspaceView
+    android:id="@id/universal_smartspace_container"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/smartspace_clock_weather_5x5" />
+</com.google.android.apps.nexuslauncher.smartspace.SmartspaceView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.taskbar.TaskbarDragLayer
+    android:id="@id/taskbar_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.taskbar.TaskbarView
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@id/taskbar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:forceHasOverlappingRendering="false">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/system_button_layout"
+            android:paddingLeft="@dimen/taskbar_nav_buttons_spacing"
+            android:paddingRight="@dimen/taskbar_nav_buttons_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:forceHasOverlappingRendering="false" />
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/hotseat_icons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:forceHasOverlappingRendering="false" />
+    </com.android.launcher3.taskbar.TaskbarView>
+    <com.android.launcher3.taskbar.ImeBarView
+        android:id="@id/ime_bar_view"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</com.android.launcher3.taskbar.TaskbarDragLayer>

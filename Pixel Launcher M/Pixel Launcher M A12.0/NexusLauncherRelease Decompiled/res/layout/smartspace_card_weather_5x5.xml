@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/smartspace_content"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.nexuslauncher.graphics.DoubleShadowTextView
+        android:textSize="@dimen/smartspace_title_size_5x5"
+        android:layout_gravity="center"
+        android:id="@id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/SmartspaceTextHeadline" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/subtitle_line"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="20.0dip">
+        <com.google.android.apps.nexuslauncher.graphics.DoubleShadowTextView
+            android:textSize="@dimen/smartspace_subtitle_size_5x5"
+            android:layout_gravity="center_vertical"
+            android:id="@id/subtitle_text"
+            android:paddingTop="4.0dip"
+            android:paddingBottom="4.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:layout_weight="1.0"
+            android:inputType="textNoSuggestions"
+            launcher:leadIconMargin="6.0dip"
+            launcher:leadIconSize="@dimen/smartspace_subtitle_icon_size_5x5"
+            style="@style/SmartspaceTextTitle" />
+        <com.google.android.apps.nexuslauncher.graphics.DoubleShadowTextView
+            android:textSize="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:id="@id/subtitle_weather_text"
+            android:background="@drawable/bg_smartspace"
+            android:paddingLeft="8.0dip"
+            android:paddingTop="2.0dip"
+            android:paddingBottom="2.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            launcher:leadIconMargin="4.0dip"
+            launcher:leadIconSize="@dimen/smartspace_subtitle_icon_size_5x5"
+            style="@style/SmartspaceTextTitle" />
+    </LinearLayout>
+</LinearLayout>

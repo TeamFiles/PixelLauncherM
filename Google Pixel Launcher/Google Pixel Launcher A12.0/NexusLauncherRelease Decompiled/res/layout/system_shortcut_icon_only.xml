@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:theme="@style/PopupItem"
+    android:background="?android:selectableItemBackgroundBorderless"
+    android:padding="@dimen/system_shortcut_header_icon_padding"
+    android:layout_width="@dimen/system_shortcut_header_icon_touch_size"
+    android:layout_height="@dimen/system_shortcut_header_icon_touch_size"
+    android:tint="?iconOnlyShortcutColor"
+    android:tintMode="src_in"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

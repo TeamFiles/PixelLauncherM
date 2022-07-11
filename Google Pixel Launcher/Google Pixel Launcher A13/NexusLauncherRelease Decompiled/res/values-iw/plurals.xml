@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני יום אחד (%d)</item>
+        <item quantity="two">לפני יומיים (%d)</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה (%d)</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">לפני %d שנים</item>
+        <item quantity="one">לפני שנה (%d)</item>
+        <item quantity="two">לפני %d שנים</item>
+        <item quantity="many">לפני %d שנים</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">‏%d ש’</item>
+        <item quantity="one">‏%d ש’</item>
+        <item quantity="two">‏%d ש’</item>
+        <item quantity="many">‏%d ש’</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">‏%d ד’</item>
+        <item quantity="one">‏%d ד’</item>
+        <item quantity="two">‏%d ד’</item>
+        <item quantity="many">‏%d ד’</item>
+    </plurals>
+</resources>

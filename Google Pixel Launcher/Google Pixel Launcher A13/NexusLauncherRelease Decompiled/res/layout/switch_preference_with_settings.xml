@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/settings"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="12.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_setting"
+        android:forceDarkAllowed="true" />
+    <View
+        android:id="@id/divider"
+        android:background="?android:listDivider"
+        android:layout_width="1.0dip"
+        android:layout_height="30.0dip"
+        android:layout_marginEnd="8.0dip" />
+    <Switch
+        android:id="@android:id/switch_widget"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

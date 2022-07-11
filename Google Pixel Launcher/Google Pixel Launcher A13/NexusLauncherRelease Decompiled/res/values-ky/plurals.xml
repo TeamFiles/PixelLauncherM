@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d күн мурун</item>
+        <item quantity="one">%d күн мурун</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d мүн. мурун</item>
+        <item quantity="one">%d мүн. мурун</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d жыл мурун</item>
+        <item quantity="one">%d жыл мурун</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d жаңы билдирме</item>
+        <item quantity="one">%d жаңы билдирме</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d с.</item>
+        <item quantity="one">%d с.</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d мүн.</item>
+        <item quantity="one">%d мүн.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-paddings
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <device-padding
+        launcher:maxEmptySpace="50.0dip">
+        <workspaceTopPadding
+            launcher:a="0.0"
+            launcher:b="7.0dip" />
+        <workspaceBottomPadding
+            launcher:a="0.0"
+            launcher:b="24.0dip" />
+        <hotseatBottomPadding
+            launcher:a="1.0"
+            launcher:c="31.0dip" />
+    </device-padding>
+    <device-padding
+        launcher:maxEmptySpace="100.0dip">
+        <workspaceTopPadding
+            launcher:a="0.0"
+            launcher:b="36.0dip" />
+        <workspaceBottomPadding
+            launcher:a="1.0"
+            launcher:c="76.0dip" />
+        <hotseatBottomPadding
+            launcher:a="0.0"
+            launcher:b="40.0dip" />
+    </device-padding>
+    <device-padding
+        launcher:maxEmptySpace="140.0dip">
+        <workspaceTopPadding
+            launcher:a="0.0"
+            launcher:b="34.0dip" />
+        <workspaceBottomPadding
+            launcher:a="0.3"
+            launcher:b="0.0"
+            launcher:c="34.0dip" />
+        <hotseatBottomPadding
+            launcher:a="0.7"
+            launcher:b="0.0"
+            launcher:c="34.0dip" />
+    </device-padding>
+    <device-padding
+        launcher:maxEmptySpace="150.0dip">
+        <workspaceTopPadding
+            launcher:a="0.0"
+            launcher:b="36.0dip" />
+        <workspaceBottomPadding
+            launcher:a="0.5"
+            launcher:b="0.0"
+            launcher:c="36.0dip" />
+        <hotseatBottomPadding
+            launcher:a="0.5"
+            launcher:b="0.0"
+            launcher:c="36.0dip" />
+    </device-padding>
+    <device-padding
+        launcher:maxEmptySpace="9999.0dip">
+        <workspaceTopPadding
+            launcher:a="0.4"
+            launcher:c="36.0dip" />
+        <workspaceBottomPadding
+            launcher:a="0.6"
+            launcher:c="36.0dip" />
+        <hotseatBottomPadding
+            launcher:a="0.0"
+            launcher:b="36.0dip" />
+    </device-padding>
+</device-paddings>

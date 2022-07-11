@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultIconSlice
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/search_result_row_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.apps.nexuslauncher.allapps.SearchResultIcon
+            android:id="@id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            launcher:iconDisplay="search_result_small" />
+    </FrameLayout>
+    <androidx.slice.widget.SliceView
+        android:id="@id/slice"
+        android:paddingTop="14.0dip"
+        android:paddingBottom="14.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        style="@style/AllAppsSearchResultSlice" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/fallback_text_rows"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/search_result_padding">
+        <TextView
+            android:textSize="@dimen/search_result_hero_title_size"
+            android:textColor="?android:textColorPrimary"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:id="@id/fallback_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/AllAppsSearchResult" />
+        <TextView
+            android:textSize="@dimen/search_result_hero_subtitle_size"
+            android:textColor="?android:textColorTertiary"
+            android:ellipsize="end"
+            android:id="@id/fallback_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/AllAppsSearchResult" />
+    </LinearLayout>
+</com.google.android.apps.nexuslauncher.allapps.SearchResultIconSlice>

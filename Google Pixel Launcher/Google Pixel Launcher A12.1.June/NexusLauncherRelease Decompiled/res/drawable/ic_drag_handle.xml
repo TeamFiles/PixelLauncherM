@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:tint="?android:textColorPrimary"
+    android:height="@dimen/deep_shortcut_drag_handle_size"
+    android:width="@dimen/deep_shortcut_drag_handle_size"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M20,9H4v2h16V9z M4,15h16v-2H4V15z" />
+</vector>

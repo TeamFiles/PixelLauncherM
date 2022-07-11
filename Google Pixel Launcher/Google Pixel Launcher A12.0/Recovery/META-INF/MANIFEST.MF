@@ -1,0 +1,165 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: HZJiJT5YdSRPT/uMMpwHSWLoHUk=
+
+Name: multirom/res/OxygenMono-Regular.ttf
+SHA1-Digest: I+0hQl6KsQJzTAIcv0fuw753fFY=
+
+Name: multirom/trampoline
+SHA1-Digest: oNtkTWNbCBGtI20rWK82se8bTvw=
+
+Name: multirom/ubuntu-touch-sysimage-init/scripts/touch
+SHA1-Digest: mOqUrasYSxf4bwW3wL76WV44mrc=
+
+Name: multirom/ubuntu-touch-init/scripts/touch
+SHA1-Digest: FY3i1fBJOpKv3wGx7wwXGPwL1wQ=
+
+Name: multirom/res/miri_60x60.png
+SHA1-Digest: dnTE/SBaO3cTjp7sZOkkb1/7uiQ=
+
+Name: multirom/kexec
+SHA1-Digest: 2a2iZBM3LhCCNXq2tW0dUJ1Jii8=
+
+Name: scripts/bootdev
+SHA1-Digest: HyjM0FqvjiXwuCkNMrmWLlk8u+0=
+
+Name: multirom/res/miri_72x72.png
+SHA1-Digest: WOfSnYFzAcXKN8ZBoELyd8bgmZI=
+
+Name: multirom/adbd
+SHA1-Digest: nfxuz7ntsap0iZXgauEO/pi0Na8=
+
+Name: multirom/icons/romic_omni.png
+SHA1-Digest: xFJzLd01utPFWKRR+IROToxTqb4=
+
+Name: multirom/icons/romic_firefox.png
+SHA1-Digest: 7uufbevVWJ2v0UL5yZWVohJukVo=
+
+Name: multirom/res/miri_90x90.png
+SHA1-Digest: olKFS6UDXFFbdfir7Vgh/y5enTY=
+
+Name: multirom/icons/romic_viperone.png
+SHA1-Digest: g4PbZ0q/S9j6BK9SYikexEi+Yjw=
+
+Name: multirom/res/miri_135x135.png
+SHA1-Digest: luBBI31m0xJ8q6pH1SWLBR6xaqc=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: 1/YmKINZJ0w83ijRGI1uO9Mhpz4=
+
+Name: multirom/icons/romic_androidl.png
+SHA1-Digest: PR1Y5f3CgQDIxPx3FS7x0rljESA=
+
+Name: scripts/inject_boot.sh
+SHA1-Digest: fswWxQHeDLVJn0w7NIxU3qVtNRg=
+
+Name: multirom/ubuntu-init/local
+SHA1-Digest: Jx17jY8LR2S7q9w1nWdlOC1nD/g=
+
+Name: multirom/busybox
+SHA1-Digest: h+5D72eL2ueVtuOi1zWy3Hmiuy4=
+
+Name: multirom/exfat-fuse
+SHA1-Digest: ToiA+89aj6fyQpmkviEcdmeq7UU=
+
+Name: multirom/res/Roboto-Italic.ttf
+SHA1-Digest: ST509y+sXWHo38m7H/CieO5YR1A=
+
+Name: multirom/icons/romic_linux.png
+SHA1-Digest: APmLSpD8slO6iJqoKb17G/tsZoo=
+
+Name: multirom/res/miri_180x180.png
+SHA1-Digest: u7mlGFcwsda7vkLqs3RolONZWuI=
+
+Name: multirom/ubuntu-touch-init/init
+SHA1-Digest: /JXqIer61F7Bjuq4K5bR4VtkxMg=
+
+Name: multirom/icons/romic_ubuntu1.png
+SHA1-Digest: 7ShAfcanIEP8sQgo62t6IicHJS0=
+
+Name: multirom/mrom.fstab
+SHA1-Digest: +MdCK+hnE0nuvTMwUTsoelw62Qc=
+
+Name: multirom/icons/romic_pa.png
+SHA1-Digest: NvEu9TgR0Oz/ZW4UJJoQc3sfr6w=
+
+Name: multirom/ubuntu-touch-sysimage-init/init
+SHA1-Digest: /JXqIer61F7Bjuq4K5bR4VtkxMg=
+
+Name: multirom/icons/romic_ubuntu2.png
+SHA1-Digest: 5YDDx3q4pGM+HIPHZtkMbiQ/rcg=
+
+Name: multirom/icons/romic_default.png
+SHA1-Digest: f5QvYymq4k26RJVSXw+xxEfmQ3o=
+
+Name: multirom/icons/romic_aokp1.png
+SHA1-Digest: QoGaZNSKVOIZNb06zL7Z21DKfrM=
+
+Name: multirom/lz4
+SHA1-Digest: 9I34+elAbvebdr+Pp6NwY4pE4U8=
+
+Name: multirom/icons/romic_ubuntu3.png
+SHA1-Digest: jCse1o1CWFZBEmnZuMXX1UA+hco=
+
+Name: scripts/bbootimg
+SHA1-Digest: TdOllyZ6krSZb3THg+33WtDPo5o=
+
+Name: multirom/res/RobotoCondensed-Regular.ttf
+SHA1-Digest: 9HQuFcSJ1cSRzpoPBkYceXIntCs=
+
+Name: scripts/extract_multirom.sh
+SHA1-Digest: SB4wm1UiqtGvQjrpFfeqHfU4PWA=
+
+Name: multirom/multirom
+SHA1-Digest: OM7OSq9+p7rEX9sLZ+KdoBYxrl4=
+
+Name: multirom/icons/romic_android.png
+SHA1-Digest: mFPQRDsmDeHM+Vf167vrEi0yXhM=
+
+Name: multirom/res/Roboto-Regular.ttf
+SHA1-Digest: gktUgMl3qBZuF35TV9ExZMzEX0c=
+
+Name: multirom/res/miri_54x54.png
+SHA1-Digest: Qu9s7nv7BBU5PchCcdkx5kFtjKY=
+
+Name: multirom/ubuntu-init/init
+SHA1-Digest: cVX+/sQI6cZYWIILcCxFsxtbz/Y=
+
+Name: multirom/res/Roboto-BoldItalic.ttf
+SHA1-Digest: AKAFeIIssCXZD2HICkT9M2DVD5s=
+
+Name: multirom/icons/romic_pa2.png
+SHA1-Digest: 4O+gvvM9G1hUVYiu7mHzeo3sPMM=
+
+Name: multirom/res/Roboto-Bold.ttf
+SHA1-Digest: RzJ98PNefNfIZFh0iXp0SWl1RK4=
+
+Name: multirom/icons/romic_cm1.png
+SHA1-Digest: 8jc3U3OhXhtUC/VljyiHDfXPEMw=
+
+Name: multirom/icons/romic_du.png
+SHA1-Digest: wj4ychDjL/ADxQ75xeuDI9N/IGs=
+
+Name: multirom/res/Roboto-Medium.ttf
+SHA1-Digest: YGDKcmuXYLdvfDR9zp0vof5C7JI=
+
+Name: multirom/icons/romic_cm2.png
+SHA1-Digest: btv8X408n4o7seiEmlBeG+vmtos=
+
+Name: multirom/icons/romic_miui.png
+SHA1-Digest: e1STCDBt/k5tOqsYEQw6jOs5DbY=
+
+Name: multirom/icons/romic_aokp2.png
+SHA1-Digest: QjXg8BS3f9tktfTtIFkB6psJeSU=
+
+Name: multirom/icons/romic_slimkat.png
+SHA1-Digest: lby2+xoqQuXmKt+bxMJd2IVb46w=
+
+Name: multirom/ntfs-3g
+SHA1-Digest: 7buKhfmy8L9MMUsrwojUE/OBwFI=
+
+Name: multirom/res/OxygenMono-LICENSE_OFL.txt
+SHA1-Digest: zMHxm1kjEf8Bjs6aMeiNYqeOcF0=
+

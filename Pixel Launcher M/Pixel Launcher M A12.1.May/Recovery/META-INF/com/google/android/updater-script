@@ -1,0 +1,149 @@
+ui_print("");
+ui_print("    ------------------------------------------------ ");
+ui_print("   |                                                |");
+ui_print("   |                Pixel Launcher M                |");
+ui_print("   |                                                |");
+ui_print("   |              v1.6.0-beta-A12.1.May             |");
+ui_print("   |                                                |");
+ui_print("   |                   #TeamFiles™                  |");
+ui_print("   |                                                |");
+ui_print("   |           https://t.me/PixelLauncherM          |");
+ui_print("   |                                                |");
+ui_print("    ------------------------------------------------ ");
+ui_print("");
+ui_print("                     Please wait...");
+ui_print("");
+
+set_progress(0.10);
+
+package_extract_file("mount-system.sh", "/tmp/mount-system.sh");
+package_extract_file("unmount-system.sh", "/tmp/unmount-system.sh");
+set_metadata("/tmp/mount-system.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-system.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-system.sh");
+
+package_extract_file("mount-system_root.sh", "/tmp/mount-system_root.sh");
+package_extract_file("unmount-system_root.sh", "/tmp/unmount-system_root.sh");
+set_metadata("/tmp/mount-system_root.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-system_root.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-system_root.sh");
+
+package_extract_file("mount-system_ext.sh", "/tmp/mount-system_ext.sh");
+package_extract_file("unmount-system_root.sh", "/tmp/unmount-system_ext.sh");
+set_metadata("/tmp/mount-system_ext.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-system_ext.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-system_ext.sh");
+
+package_extract_file("mount-product.sh", "/tmp/mount-product.sh");
+package_extract_file("unmount-product.sh", "/tmp/unmount-product.sh");
+set_metadata("/tmp/mount-product.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-product.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-product.sh");
+
+set_progress(0.30);
+
+package_extract_file("remove.sh", "/tmp/remove.sh");
+set_metadata("/tmp/remove.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/remove.sh");
+
+delete_recursive("/data/resource-cache");
+delete_recursive("/data/system/package_cache");
+delete_recursive("/tmp/remove.sh");
+
+delete_recursive("/system/system/priv-app/AsusLauncherDev");
+delete_recursive("/system/system/system_ext/priv-app/DerpLauncherQuickStep");
+delete_recursive("/system/system/product/priv-app/TrebuchetQuickStep");
+delete_recursive("/system/system/product/priv-app/ShadyQuickStep");
+delete_recursive("/system/system/product/priv-app/ParanoidQuickStep");
+delete_recursive("/system/system/system_ext/priv-app/Launcher3QuickStep");
+delete_recursive("/system/system/priv-app/NexusLauncherPrebuilt");
+delete_recursive("/system_root/system/priv-app/AsusLauncherDev");
+delete_recursive("/system_root/system/system_ext/priv-app/DerpLauncherQuickStep");
+delete_recursive("/system_root/system/product/priv-app/TrebuchetQuickStep");
+delete_recursive("/system_root/system/product/priv-app/ShadyQuickStep");
+delete_recursive("/system_root/system/product/priv-app/ParanoidQuickStep");
+delete_recursive("/system_root/system/system_ext/priv-app/Launcher3QuickStep");
+delete_recursive("/system_root/system/priv-app/NexusLauncherPrebuilt");
+delete_recursive("/system_ext/system/priv-app/DerpLauncherQuickStep");
+delete_recursive("/system_ext/system/priv-app/Launcher3QuickStep");
+delete_recursive("/system/system/priv-app/Lawnchair");
+delete_recursive("/system/system/priv-app/Lawnicons");
+delete_recursive("/system/system/priv-app/Lawnfeed");
+delete_recursive("/system/system/product/priv-app/NexusLauncherRelease");
+delete_recursive("/system_root/system/priv-app/Lawnchair");
+delete_recursive("/system_root/system/priv-app/Lawnicons");
+delete_recursive("/system_root/system/priv-app/Lawnfeed");
+delete_recursive("/product/priv-app/TrebuchetQuickStep");
+delete_recursive("/product/priv-app/ParanoidQuickStep");
+delete_recursive("/product/priv-app/ShadyQuickStep");
+
+set_progress(0.50);
+
+package_extract_dir("system", "/system/system");
+package_extract_dir("system", "/system_root/system");
+package_extract_dir("product", "/product");
+package_extract_dir("product", "system_root/system/product");
+package_extract_dir("system_ext", "/system_ext");
+package_extract_dir("system_ext", "/system_root/system/system_ext");
+
+set_progress(0.70);
+
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system/system_ext/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system_ext/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/product/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system_ext/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system_ext/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/product/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_ext/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_ext/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/product/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system/system_ext/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system_ext/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/product/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system_ext/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system_ext/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/product/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system_ext/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_ext/priv-app");
+
+set_perm_recursive(0, 0, 0755, 0644, "/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/product/priv-app");
+
+set_progress(0.80);
+
+run_program("/tmp/unmount-system.sh");
+run_program("/tmp/unmount-system_root.sh");
+run_program("/tmp/unmount-system_ext.sh");
+run_program("/tmp/unmount-product.sh");
+
+ui_print("                        All done!");
+
+set_progress(1.00);
+

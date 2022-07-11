@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.widget.picker.WidgetsRecyclerView
+        android:id="@id/primary_widgets_list_view"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/collapse_handle"
+        android:paddingHorizontal="@dimen/widget_list_horizontal_margin" />
+    <com.android.launcher3.widget.picker.SearchAndRecommendationsView
+        android:orientation="vertical"
+        android:id="@id/search_and_recommendations_container"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/collapse_handle"
+        android:layout_marginHorizontal="@dimen/widget_list_horizontal_margin">
+        <TextView
+            android:textSize="24.0sp"
+            android:textColor="?android:textColorSecondary"
+            android:gravity="center_horizontal"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24.0dip"
+            android:text="@string/widget_button_text" />
+        <FrameLayout
+            android:id="@id/search_bar_container"
+            android:background="?android:colorBackground"
+            android:paddingBottom="8.0dip"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0.100000024dip">
+            <include
+                layout="@layout/widgets_search_bar" />
+        </FrameLayout>
+        <com.android.launcher3.widget.picker.WidgetsRecommendationTableLayout
+            android:id="@id/recommended_widget_table"
+            android:background="@drawable/widgets_recommendation_background"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:paddingVertical="@dimen/recommended_widgets_table_vertical_padding" />
+    </com.android.launcher3.widget.picker.SearchAndRecommendationsView>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shapes
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <Circle
+        launcher:folderIconRadius="1.0" />
+    <RoundedSquare
+        launcher:folderIconRadius="0.24"
+        launcher:qsbEdgeRadius="8.0dip" />
+    <RoundedSquare
+        launcher:folderIconRadius="0.8"
+        launcher:qsbEdgeRadius="8.0dip" />
+    <RoundedSquare
+        launcher:folderIconRadius="0.0"
+        launcher:qsbEdgeRadius="8.0dip" />
+    <TearDrop
+        launcher:folderIconRadius="0.24" />
+    <Squircle
+        launcher:folderIconRadius="0.2"
+        launcher:qsbEdgeRadius="16.0dip" />
+</shapes>

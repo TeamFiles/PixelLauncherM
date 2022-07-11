@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_home_light_mode__48__0"
+        android:duration="217"
+        android:startOffset="0"
+        android:valueFrom="M0 411 C19.33,411 35,426.67 35,446 C35,465.33 19.33,481 0,481 C-19.33,481 -35,465.33 -35,446 C-35,426.67 -19.33,411 0,411c "
+        android:valueTo="M0 396 C27.61,396 50,418.39 50,446 C50,473.61 27.61,496 0,496 C-27.61,496 -50,473.61 -50,446 C-50,418.39 -27.61,396 0,396c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_home_light_mode__48__1"
+        android:duration="433"
+        android:startOffset="217"
+        android:valueFrom="M0 396 C27.61,396 50,418.39 50,446 C50,473.61 27.61,496 0,496 C-27.61,496 -50,473.61 -50,446 C-50,418.39 -27.61,396 0,396c "
+        android:valueTo="M0 68 C27.61,68 50,90.39 50,118 C50,145.61 27.61,168 0,168 C-27.61,168 -50,145.61 -50,118 C-50,90.39 -27.61,68 0,68c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

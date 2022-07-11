@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d일 전</item>
+        <item quantity="one">%d일 전</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">%d분 전</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d년 전</item>
+        <item quantity="one">%d년 전</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">%1$s에 %2$d개의 알림이 있음</item>
+        <item quantity="one">%1$s에 %2$d개의 알림이 있음</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">바로가기 %1$d개</item>
+        <item quantity="one">바로가기 %1$d개</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">위젯 %1$d개</item>
+        <item quantity="one">위젯 %1$d개</item>
+    </plurals>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/root_view"
+    android:background="@color/all_set_page_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/content_view"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView
+            android:gravity="center"
+            android:id="@id/animated_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/all_set_page_bg" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:fitsSystemWindows="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textDirection="locale"
+            android:layoutDirection="locale"
+            android:layout_marginStart="@dimen/allset_page_margin_horizontal"
+            android:layout_marginEnd="@dimen/allset_page_margin_horizontal"
+            android:forceHasOverlappingRendering="false">
+            <ImageView
+                android:id="@id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/allset_title_icon_margin_top"
+                android:src="@drawable/ic_all_set"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:gravity="start"
+                android:id="@id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/allset_title_margin_top"
+                android:text="@string/allset_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/icon"
+                style="@style/TextAppearance.GestureTutorial.Feedback.Title.AllSet" />
+            <TextView
+                android:gravity="start"
+                android:id="@id/subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/allset_subtitle_margin_top"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                style="@style/TextAppearance.GestureTutorial.Feedback.Subtitle.AllSet" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="horizontal"
+                android:id="@id/navigation_settings_guideline_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintGuide_percent="0.83" />
+            <TextView
+                android:id="@id/navigation_settings"
+                android:background="?android:selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48.0dip"
+                android:text="@string/allset_navigation_settings"
+                app:layout_constraintBottom_toBottomOf="@id/navigation_settings_guideline_bottom"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                style="@style/TextAppearance.GestureTutorial.LinkText" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="horizontal"
+                android:id="@id/hint_guideline_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintGuide_percent="0.94" />
+            <TextView
+                android:textSize="14.0sp"
+                android:id="@id/hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/allset_hint"
+                app:layout_constraintBottom_toBottomOf="@id/hint_guideline_bottom"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                style="@style/TextAppearance.GestureTutorial.Feedback.Subtitle" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

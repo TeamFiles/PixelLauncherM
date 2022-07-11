@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultWidgetPreview
+    android:padding="@dimen/dynamic_grid_cell_padding_x"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/widget_cell"
+        layout="@layout/widget_cell" />
+</com.google.android.apps.nexuslauncher.allapps.SearchResultWidgetPreview>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_hovered="false">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="@dimen/more_share_border_radius" />
+            <solid
+                android:color="?android:colorBackground" />
+        </shape>
+    </item>
+    <item
+        android:state_hovered="true">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="@dimen/more_share_border_radius" />
+            <solid
+                android:color="?android:colorFocusedHighlight" />
+        </shape>
+    </item>
+</selector>

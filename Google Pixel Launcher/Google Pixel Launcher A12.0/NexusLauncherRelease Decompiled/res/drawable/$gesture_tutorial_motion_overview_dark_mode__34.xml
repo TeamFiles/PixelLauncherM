@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_overview_dark_mode__34__0"
+        android:duration="350"
+        android:startOffset="2083"
+        android:valueFrom="0.6"
+        android:valueTo="0.72718"
+        android:valueType="floatType"
+        android:propertyName="scaleX" />
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_overview_dark_mode__34__1"
+        android:duration="350"
+        android:startOffset="2083"
+        android:valueFrom="0.6"
+        android:valueTo="0.72718"
+        android:valueType="floatType"
+        android:propertyName="scaleY" />
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_overview_dark_mode__34__2"
+        android:duration="217"
+        android:startOffset="2433"
+        android:valueFrom="0.72718"
+        android:valueTo="0.72"
+        android:valueType="floatType"
+        android:propertyName="scaleX" />
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_overview_dark_mode__34__3"
+        android:duration="217"
+        android:startOffset="2433"
+        android:valueFrom="0.72718"
+        android:valueTo="0.72"
+        android:valueType="floatType"
+        android:propertyName="scaleY" />
+</set>

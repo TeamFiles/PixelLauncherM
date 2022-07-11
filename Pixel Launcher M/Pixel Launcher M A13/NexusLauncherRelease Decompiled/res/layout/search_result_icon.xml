@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultIcon
+    launcher:centerVertically="true"
+    launcher:iconDisplay="all_apps"
+    style="@style/BaseIcon.AllApps"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto" />

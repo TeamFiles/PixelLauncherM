@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="end|center"
+    android:orientation="horizontal"
+    android:id="@id/system_shortcut_icons"
+    android:background="@drawable/single_item_primary"
+    android:clipToPadding="true"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/system_shortcut_header_height"
+    android:elevation="@dimen/deep_shortcuts_elevation"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space
+        android:id="@id/separator"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+</LinearLayout>

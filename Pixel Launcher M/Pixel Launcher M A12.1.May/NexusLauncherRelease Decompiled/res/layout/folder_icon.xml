@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.folder.FolderIcon
+    android:orientation="vertical"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.views.DoubleShadowBubbleTextView
+        android:layout_gravity="top"
+        android:id="@id/folder_icon_name"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/BaseIcon.Workspace" />
+</com.android.launcher3.folder.FolderIcon>

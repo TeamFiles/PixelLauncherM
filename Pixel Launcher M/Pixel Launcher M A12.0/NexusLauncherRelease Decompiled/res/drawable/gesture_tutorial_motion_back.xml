@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    android:drawable="@drawable/$gesture_tutorial_motion_back__51"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__0" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_1_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__1" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_2_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__2" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_3_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__3" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_4_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__4" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_5_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__5" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_6_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__6" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_7_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__7" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_8_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__8" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_9_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__9" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_10_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__10" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_11_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__11" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_12_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__12" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G_L_0_G_D_13_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__13" />
+    <target
+        android:name="_R_G_L_3_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__14" />
+    <target
+        android:name="_R_G_L_3_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__15" />
+    <target
+        android:name="_R_G_L_3_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__16" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__17" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_1_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__18" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_2_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__19" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_3_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__20" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_4_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__21" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_5_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__22" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_6_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__23" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_7_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__24" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_8_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__25" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_9_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__26" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_10_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__27" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_11_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__28" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_12_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__29" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_13_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__30" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_14_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__31" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_15_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__32" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_16_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__33" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_17_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__34" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_18_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__35" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_19_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__36" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_20_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__37" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_21_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__38" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_22_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__39" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_23_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__40" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G_D_24_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__41" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__42" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__43" />
+    <target
+        android:name="_R_G_L_2_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__44" />
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0_G_0_T_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__45" />
+    <target
+        android:name="_R_G_L_1_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__46" />
+    <target
+        android:name="_R_G_L_1_G"
+        android:animation="@drawable/$gesture_tutorial_motion_back__47" />
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__48" />
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_back__49" />
+    <target
+        android:name="time_group"
+        android:animation="@drawable/$gesture_tutorial_motion_back__50" />
+</animated-vector>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget-sections
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <section
+        launcher:category="0"
+        launcher:sectionDrawable="@drawable/ic_conversations_widget_category"
+        launcher:sectionTitle="@string/widget_category_conversations">
+        <widget
+            launcher:provider="com.android.systemui/.people.widget.PeopleSpaceWidgetProvider" />
+    </section>
+    <section
+        launcher:category="1"
+        launcher:sectionDrawable="@drawable/ic_weather_widget_category"
+        launcher:sectionTitle="@string/widget_category_weather">
+        <widget
+            launcher:alsoKeepInApp="true"
+            launcher:provider="com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.verticals.snapshot.widgets.weather.WeatherWidget_Receiver" />
+        <widget
+            launcher:alsoKeepInApp="true"
+            launcher:provider="com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.verticals.snapshot.widgets.weather.FreeformWeatherWidget_Receiver" />
+    </section>
+    <section
+        launcher:category="2"
+        launcher:sectionDrawable="@drawable/ic_battery_widget_category"
+        launcher:sectionTitle="@string/widget_category_battery">
+        <widget
+            launcher:provider="com.google.android.settings.intelligence/com.google.android.settings.intelligence.modules.batterywidget.impl.BatteryAppWidgetProvider" />
+    </section>
+</widget-sections>

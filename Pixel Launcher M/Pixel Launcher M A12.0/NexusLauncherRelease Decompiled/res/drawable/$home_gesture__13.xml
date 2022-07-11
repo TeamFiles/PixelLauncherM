@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/$$home_gesture__13__0"
+        android:duration="333"
+        android:startOffset="0"
+        android:valueFrom="M5.87 164.71 C0.43,267.95 56.57,389.47 139.31,416.77 C222.04,444.07 215.7,295.51 248.09,197.33 C280.49,99.14 111.3,154.92 55.02,40.63 C41.48,24.52 8.77,109.58 5.87,164.71c "
+        android:valueTo="M5.87 164.71 C0.43,267.95 56.57,389.47 139.31,416.77 C222.04,444.07 215.7,295.51 248.09,197.33 C280.49,99.14 111.3,154.92 55.02,40.63 C41.48,24.52 8.77,109.58 5.87,164.71c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$home_gesture__13__1"
+        android:duration="150"
+        android:startOffset="333"
+        android:valueFrom="M5.87 164.71 C0.43,267.95 56.57,389.47 139.31,416.77 C222.04,444.07 215.7,295.51 248.09,197.33 C280.49,99.14 111.3,154.92 55.02,40.63 C41.48,24.52 8.77,109.58 5.87,164.71c "
+        android:valueTo="M-9.23 115.79 C-30.45,216.96 -36.73,359.16 139.26,416.71 C222.07,443.78 220.51,278.25 244.3,175.03 C268.14,75.53 116.98,150.23 54.13,40.23 C40.58,24.12 5.18,47.09 -9.23,115.79c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$home_gesture__13__2"
+        android:duration="433"
+        android:startOffset="483"
+        android:valueFrom="M-9.23 115.79 C-30.45,216.96 -36.73,359.16 139.26,416.71 C222.07,443.78 220.51,278.25 244.3,175.03 C268.14,75.53 116.98,150.23 54.13,40.23 C40.58,24.12 5.18,47.09 -9.23,115.79c "
+        android:valueTo="M-8.56 118.7 C-9.54,222.08 56.39,389.22 139.13,416.51 C221.86,443.81 234.66,227.56 233.16,109.56 C231.84,6.17 133.65,136.44 51.49,39.06 C37.94,22.95 -7.96,56.24 -8.56,118.7c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$home_gesture__13__3"
+        android:duration="917"
+        android:startOffset="917"
+        android:valueFrom="M-8.56 118.7 C-9.54,222.08 56.39,389.22 139.13,416.51 C221.86,443.81 234.66,227.56 233.16,109.56 C231.84,6.17 133.65,136.44 51.49,39.06 C37.94,22.95 -7.96,56.24 -8.56,118.7c "
+        android:valueTo="M-8.56 118.7 C-9.54,222.08 56.39,389.22 139.13,416.51 C221.86,443.81 238.66,196.56 237.16,78.56 C235.84,-24.83 133.65,136.44 51.49,39.06 C37.94,22.95 -7.96,56.24 -8.56,118.7c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$home_gesture__13__4"
+        android:duration="1000"
+        android:startOffset="1833"
+        android:valueFrom="M-8.56 118.7 C-9.54,222.08 56.39,389.22 139.13,416.51 C221.86,443.81 238.66,196.56 237.16,78.56 C235.84,-24.83 133.65,136.44 51.49,39.06 C37.94,22.95 -7.96,56.24 -8.56,118.7c "
+        android:valueTo="M5.87 164.71 C0.43,267.95 56.57,389.47 139.31,416.77 C222.04,444.07 215.7,295.51 248.09,197.33 C280.49,99.14 111.3,154.92 55.02,40.63 C41.48,24.52 8.77,109.58 5.87,164.71c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

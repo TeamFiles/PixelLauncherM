@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <favorite
+        launcher:className="com.google.android.apps.keep.ui.activities.BrowseActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.keep"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.apps.messaging.ui.ConversationListActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.apps.messaging"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="org.telegram.ui.LaunchActivity"
+        launcher:container="-101"
+        launcher:packageName="org.telegram"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.gm.ConversationListActivityGmail"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.gm"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="0" />
+    <resolve
+        launcher:screen="0"
+        launcher:x="4"
+        launcher:y="0">
+        <favorite
+            launcher:className="com.android.camera.CameraLauncher"
+            launcher:packageName="com.google.android.GoogleCamera" />
+        <favorite
+            launcher:uri="\#Intent;action=android.media.action.STILL_IMAGE_CAMERA;end" />
+        <favorite
+            launcher:uri="\#Intent;action=android.intent.action.CAMERA_BUTTON;end" />
+    </resolve>
+    <favorite
+        launcher:className="com.google.android.apps.photos.home.HomeActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.apps.photos"
+        launcher:screen="0"
+        launcher:x="5"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.apps.docs.drive.startup.StartupActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.apps.docs"
+        launcher:screen="0"
+        launcher:x="6"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.maps.MapsActivity"
+        launcher:packageName="com.google.android.apps.maps"
+        launcher:screen="0"
+        launcher:x="7"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.youtube.HomeActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.youtube"
+        launcher:screen="0"
+        launcher:x="8"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.apps.youtube.music.activities.MusicActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.apps.youtube.music"
+        launcher:screen="0"
+        launcher:x="9"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.apps.chrome.Main"
+        launcher:container="-101"
+        launcher:packageName="com.android.chrome"
+        launcher:screen="0"
+        launcher:x="10"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.settings.Settings"
+        launcher:container="-101"
+        launcher:packageName="com.android.settings"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="-1" />
+    <favorite
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:packageName="com.android.vending"
+        launcher:screen="0"
+        launcher:x="10"
+        launcher:y="-1" />
+</favorites>

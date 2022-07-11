@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    android:color="?android:colorControlHighlight"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <item>
+        <shape
+            android:tint="?colorButtonNormal"
+            android:shape="rectangle">
+            <corners
+                android:radius="24.0dip" />
+            <solid
+                android:color="?android:^attr-private/colorSurface" />
+        </shape>
+    </item>
+</ripple>

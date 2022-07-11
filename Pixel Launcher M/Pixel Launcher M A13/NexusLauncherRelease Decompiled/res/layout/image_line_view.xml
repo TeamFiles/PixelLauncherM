@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/image_view"
+    android:background="@drawable/image_background"
+    android:padding="12.0dip"
+    android:visibility="gone"
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    android:alpha="0.7"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

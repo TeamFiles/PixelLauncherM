@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.quickstep.views.LauncherRecentsView
+        android:id="@id/overview_panel"
+        android:visibility="invisible"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:accessibilityPaneTitle="@string/accessibility_recent_apps" />
+    <include
+        android:id="@id/overview_actions_view"
+        layout="@layout/overview_actions_container" />
+</merge>

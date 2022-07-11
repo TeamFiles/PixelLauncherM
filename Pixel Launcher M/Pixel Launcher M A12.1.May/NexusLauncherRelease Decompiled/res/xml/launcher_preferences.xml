@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    android:persistent="false"
+    android:key="preference_screen"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.settings.NotificationDotsPreference
+        android:persistent="false"
+        android:title="@string/notification_dots_title"
+        android:key="pref_icon_badging"
+        android:widgetLayout="@layout/notification_pref_warning" />
+    <com.google.android.apps.nexuslauncher.settings.AtAGlancePreference
+        android:persistent="false"
+        android:title="@string/smartspace_preferences_in_settings"
+        android:key="pref_smartspace"
+        android:widgetLayout="@layout/smartspace_pref_manage" />
+    <SwitchPreference
+        android:persistent="true"
+        android:title="@string/dt2s_pref_title"
+        android:key="pref_use_dt2s"
+        android:summary="@string/dt2s_pref_summary"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:persistent="true"
+        android:title="@string/auto_add_shortcuts_label"
+        android:key="pref_add_icon_to_home"
+        android:summary="@string/auto_add_shortcuts_description"
+        android:defaultValue="true"
+        launcher:logIdOff="614"
+        launcher:logIdOn="613" />
+    <SwitchPreference
+        android:title="@string/title_show_google_app"
+        android:key="pref_enable_minus_one"
+        android:summary="@string/pref_show_google_now_summary"
+        android:defaultValue="true"
+        launcher:logIdOff="618"
+        launcher:logIdOn="617" />
+    <SwitchPreference
+        android:title="@string/overview_suggestions_settings_title"
+        android:key="pref_overview_action_suggestions"
+        android:summary="@string/overview_suggestions_settings_summary"
+        android:defaultValue="true"
+        launcher:logIdOff="620"
+        launcher:logIdOn="619" />
+    <androidx.preference.PreferenceScreen
+        android:persistent="false"
+        android:title="@string/suggestion_pref_screen_title"
+        android:key="pref_suggestions"
+        android:summary="@string/suggestion_pref_screen_desc">
+        <intent
+            android:action="android.settings.ACTION_CONTENT_SUGGESTIONS_SETTINGS" />
+    </androidx.preference.PreferenceScreen>
+    <androidx.preference.PreferenceScreen
+        android:persistent="false"
+        android:title="@string/search_pref_screen_title"
+        android:key="search_settings"
+        android:summary="@string/search_pref_screen_desc">
+        <PreferenceCategory
+            android:title="@string/search_pref_category_result_types"
+            android:key="search_result_types">
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_shortcuts_title"
+                android:key="pref_allowShortcutResult"
+                android:summary="@string/search_pref_result_shortcuts_desc"
+                android:defaultValue="@bool/search_pref_result_shortcuts_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_people_title"
+                android:key="pref_allowPeopleResult"
+                android:summary="@string/search_pref_result_people_desc"
+                android:defaultValue="@bool/search_pref_result_people_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_settings_title"
+                android:key="pref_allowSettingsResult"
+                android:defaultValue="@bool/search_pref_result_settings_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_tips_title"
+                android:key="pref_allowPixelTipsResult"
+                android:defaultValue="@bool/search_pref_result_tips_enabled" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:icon="@drawable/ic_info_no_shadow"
+            android:title="@string/search_pref_category_info"
+            android:key="search_launch_tips">
+            <Preference
+                android:persistent="false"
+                android:title="@string/search_pref_info_btn"
+                android:key="search_tips" />
+        </PreferenceCategory>
+        <androidx.preference.PreferenceScreen
+            android:title="@string/search_pref_category_experiments"
+            android:key="search_pref_experiments">
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_legacy_ime_title"
+                android:key="pref_search_legacy_ime"
+                android:defaultValue="@bool/search_pref_legacy_ime" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_filter_by_allow_list"
+                android:key="perf_searchFilterByAllowList"
+                android:defaultValue="@bool/search_pref_filter_by_allow_list" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_show_hidden_targets_title"
+                android:key="pref_search_show_hidden_targets"
+                android:defaultValue="@bool/search_pref_show_hidden_targets" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_appsearch_tips_title"
+                android:key="pref_allowAppSearchTipResult"
+                android:defaultValue="@bool/search_pref_result_appsearch_tips_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_appsearch_settings_title"
+                android:key="pref_allowAppSearchSettingsResult"
+                android:defaultValue="@bool/search_pref_result_appsearch_settings_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_widgets_title"
+                android:key="pref_allowWidgetsResult"
+                android:defaultValue="@bool/search_pref_result_widgets_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_people_tile_title"
+                android:key="pref_allowConversationTileResult"
+                android:defaultValue="@bool/search_pref_result_people_tile_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_chrometab_title"
+                android:key="pref_allowChromeTabResult"
+                android:defaultValue="@bool/search_pref_result_chrometab_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_screenshot_title"
+                android:key="pref_allowScreenshotResult"
+                android:defaultValue="@bool/search_pref_result_screenshot_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_memory_title"
+                android:key="pref_allowMemoryResult"
+                android:defaultValue="@bool/search_pref_result_memory_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_play_title"
+                android:key="pref_allowPlayResult"
+                android:summary="@string/search_pref_result_play_desc"
+                android:defaultValue="@bool/search_pref_result_play_enabled" />
+            <SwitchPreference
+                android:persistent="true"
+                android:title="@string/search_pref_result_navvysite_title"
+                android:key="pref_allowNavvySiteResult"
+                android:defaultValue="@bool/search_pref_result_navvysite_enabled" />
+        </androidx.preference.PreferenceScreen>
+    </androidx.preference.PreferenceScreen>
+    <SwitchPreference
+        android:persistent="true"
+        android:title="@string/allow_rotation_title"
+        android:key="pref_allowRotation"
+        android:summary="@string/allow_rotation_desc"
+        android:defaultValue="false"
+        launcher:logIdOff="616"
+        launcher:logIdOn="615" />
+    <androidx.preference.PreferenceScreen
+        android:persistent="false"
+        android:title="Developer Options"
+        android:key="pref_developer_options"
+        android:fragment="com.android.launcher3.settings.DeveloperOptionsFragment" />
+    <androidx.preference.PreferenceScreen
+        android:persistent="false"
+        android:title="@string/about"
+        android:key="about_screen">
+        <Preference
+            android:persistent="false"
+            android:title="@string/about_app_version"
+            android:key="about_app_version" />
+        <Preference
+            android:persistent="false"
+            android:title="@string/app_info_drop_target_label"
+            android:key="app_info">
+            <intent
+                android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
+                android:data="package:com.google.android.apps.nexuslauncher" />
+        </Preference>
+        <Preference
+            android:persistent="false"
+            android:title="@string/pref_open_source_licenses_title"
+            android:key="open_source_licenses"
+            android:fragment="com.google.android.apps.nexuslauncher.settings.OpenSourceLicensesFragment" />
+    </androidx.preference.PreferenceScreen>
+</androidx.preference.PreferenceScreen>

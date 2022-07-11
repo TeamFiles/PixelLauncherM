@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="overview_grid_row_spacing">44.0dip</dimen>
+    <dimen name="overview_page_spacing_grid_landscape">44.0dip</dimen>
+    <dimen name="overview_page_spacing_grid_portrait">44.0dip</dimen>
+</resources>

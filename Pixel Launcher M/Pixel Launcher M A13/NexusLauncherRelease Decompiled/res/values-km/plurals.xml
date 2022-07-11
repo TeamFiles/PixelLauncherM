@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ថ្ងៃមុន</item>
+        <item quantity="one">%d ថ្ងៃមុន</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d នាទី​មុន</item>
+        <item quantity="one">%d នាទី​មុន</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d ឆ្នាំ​មុន</item>
+        <item quantity="one">%d ឆ្នាំ​មុន</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">ការជូនដំណឹងថ្មី %d</item>
+        <item quantity="one">ការជូនដំណឹងថ្មី %d</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d ម៉</item>
+        <item quantity="one">%d ម៉</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d ន</item>
+        <item quantity="one">%d ន</item>
+    </plurals>
+</resources>

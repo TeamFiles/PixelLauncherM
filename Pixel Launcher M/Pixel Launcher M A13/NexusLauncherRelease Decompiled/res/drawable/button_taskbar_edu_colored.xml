@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <ripple
+        android:color="?android:colorControlHighlight">
+        <item>
+            <shape
+                android:shape="rectangle">
+                <corners
+                    android:radius="16.0dip" />
+                <solid
+                    android:color="?android:^attr-private/colorAccentPrimary" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

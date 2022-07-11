@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.systemui.smartspace.BcSmartspaceCard
+    android:paddingTop="@dimen/enhanced_smartspace_padding_top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.systemui.smartspace.IcuDateTextView
+        android:id="@id/clock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        style="@style/EnhancedSmartspaceTextTitle" />
+</com.google.android.systemui.smartspace.BcSmartspaceCard>

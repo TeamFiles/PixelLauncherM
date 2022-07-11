@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="end|center"
+    android:layout_gravity="end|center|top"
+    android:orientation="vertical"
+    android:id="@id/url_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton
+        android:layout_gravity="center|right|top"
+        android:id="@id/url_indicator"
+        android:background="@drawable/indicator_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/indicator_margin"
+        android:src="@drawable/url_indicator"
+        android:contentDescription="@string/selectable_url_description" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/url_text"
+        android:background="@drawable/url_background"
+        android:padding="6.0dip"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/indicator_margin"
+        android:maxLines="2"
+        android:drawablePadding="6.0dip"
+        android:drawableStart="@drawable/url_indicator" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">acum %d de zile</item>
+        <item quantity="one">acum %d zi</item>
+        <item quantity="few">acum %d zile</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">acum %d de min.</item>
+        <item quantity="one">acum %d min.</item>
+        <item quantity="few">acum %d min.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">acum %d de ani</item>
+        <item quantity="one">acum %d an</item>
+        <item quantity="few">acum %d ani</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">%1$s​ are %2$d de notificări</item>
+        <item quantity="one">%1$s are %2$d notificare</item>
+        <item quantity="few">%1$s are %2$d notificări</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">%1$d de comenzi rapide</item>
+        <item quantity="one">%1$d comandă rapidă</item>
+        <item quantity="few">%1$d comenzi rapide</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d de widgeturi</item>
+        <item quantity="one">%1$d widget</item>
+        <item quantity="few">%1$d widgeturi</item>
+    </plurals>
+</resources>

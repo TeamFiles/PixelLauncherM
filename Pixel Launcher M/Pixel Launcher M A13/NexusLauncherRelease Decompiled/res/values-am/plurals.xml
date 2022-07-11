@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">ከ%d ቀናት በፊት</item>
+        <item quantity="one">ከ%d ቀናት በፊት</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">ከ%d ደቂቃ በፊት</item>
+        <item quantity="one">ከ%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">ከ%d ዓመት በፊት</item>
+        <item quantity="one">ከ%d ዓመት በፊት</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d ሰዓ</item>
+        <item quantity="one">%d ሰዓ</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d ደቂቃ</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+</resources>

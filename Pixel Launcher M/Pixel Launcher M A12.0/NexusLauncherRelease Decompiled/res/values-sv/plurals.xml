@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="one">%d minut sedan</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d år sedan</item>
+        <item quantity="one">%d år sedan</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">%1$s har %2$d aviseringar</item>
+        <item quantity="one">%1$s har %2$d avisering</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">%1$d genvägar</item>
+        <item quantity="one">%1$d genväg</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d tim</item>
+        <item quantity="one">%d tim</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d widgetar</item>
+        <item quantity="one">%1$d widget</item>
+    </plurals>
+</resources>

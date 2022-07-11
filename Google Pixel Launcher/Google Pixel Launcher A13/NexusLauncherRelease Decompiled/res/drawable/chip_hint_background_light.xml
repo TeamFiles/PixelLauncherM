@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="@dimen/chip_hint_border_width"
+        android:color="@color/chip_hint_foreground_color" />
+    <corners
+        android:radius="@dimen/chip_hint_corner_radius" />
+    <padding
+        android:left="@dimen/chip_hint_outer_padding"
+        android:top="@dimen/chip_hint_outer_padding"
+        android:right="@dimen/chip_hint_outer_padding"
+        android:bottom="@dimen/chip_hint_outer_padding" />
+</shape>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/$$assistant_gesture__17__0"
+        android:duration="333"
+        android:startOffset="0"
+        android:valueFrom="661.757"
+        android:valueTo="661.757"
+        android:valueType="floatType"
+        android:propertyName="translateX" />
+    <objectAnimator
+        android:interpolator="@drawable/$$assistant_gesture__17__1"
+        android:duration="900"
+        android:startOffset="333"
+        android:valueFrom="661.757"
+        android:valueTo="493.757"
+        android:valueType="floatType"
+        android:propertyName="translateX" />
+    <objectAnimator
+        android:interpolator="@drawable/$$assistant_gesture__17__2"
+        android:duration="450"
+        android:startOffset="1233"
+        android:valueFrom="493.757"
+        android:valueTo="497.757"
+        android:valueType="floatType"
+        android:propertyName="translateX" />
+    <objectAnimator
+        android:interpolator="@drawable/$$assistant_gesture__17__3"
+        android:duration="1400"
+        android:startOffset="1683"
+        android:valueFrom="497.757"
+        android:valueTo="661.757"
+        android:valueType="floatType"
+        android:propertyName="translateX" />
+</set>

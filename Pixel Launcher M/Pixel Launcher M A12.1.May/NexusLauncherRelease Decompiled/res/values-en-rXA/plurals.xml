@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">[%d ðåýš åĝö one two]</item>
+        <item quantity="one">[%d ðåý åĝö one two]</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">[%d ḿîñ åĝö one two]</item>
+        <item quantity="one">[%d ḿîñ åĝö one two]</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">[%d ýŕ åĝö one two]</item>
+        <item quantity="one">[%d ýŕ åĝö one two]</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">[%d ñéŵ ñöţîƒîçåţîöñš one two three]</item>
+        <item quantity="one">[%d ñéŵ ñöţîƒîçåţîöñ one two three]</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">[»%d« ĥŕ one]</item>
+        <item quantity="one">[»%d« ĥŕ one]</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">[»%d« ḿîñ one]</item>
+        <item quantity="one">[»%d« ḿîñ one]</item>
+    </plurals>
+</resources>

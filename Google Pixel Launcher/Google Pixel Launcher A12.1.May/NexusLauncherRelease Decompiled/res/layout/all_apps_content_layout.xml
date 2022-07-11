@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/apps_list_view_override"
+    android:focusable="true"
+    android:clipToPadding="false"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="@dimen/all_apps_header_top_padding"
+    android:layout_below="@id/search_container_all_apps"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

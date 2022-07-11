@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textSize="14.0sp"
+    android:textColor="?android:textColorTertiary"
+    android:gravity="start"
+    android:id="@id/empty_text"
+    android:paddingLeft="16.0dip"
+    android:paddingTop="@dimen/all_apps_empty_search_message_top_offset"
+    android:paddingRight="16.0dip"
+    android:paddingBottom="8.0dip"
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-medium"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

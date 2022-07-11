@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.secondarydisplay.SecondaryDragLayer
+    android:id="@id/drag_layer"
+    android:padding="@dimen/dynamic_grid_edge_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView
+        android:theme="@style/HomeScreenElementTheme"
+        android:layout_gravity="center|top"
+        android:id="@id/workspace_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/dynamic_grid_edge_margin"
+        android:layout_marginBottom="100.0dip" />
+    <ImageButton
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/all_apps_button"
+        android:background="@drawable/bg_all_apps_button"
+        android:padding="16.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40.0dip"
+        android:src="@drawable/ic_apps"
+        android:onClick="onAppsButtonClicked"
+        android:contentDescription="@string/all_apps_button_label" />
+    <com.android.launcher3.allapps.AllAppsContainerView
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/apps_view"
+        android:background="@drawable/round_rect_primary"
+        android:focusable="false"
+        android:visibility="invisible"
+        android:saveEnabled="false"
+        android:clipChildren="true"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:elevation="2.0dip">
+        <include
+            android:visibility="gone"
+            layout="@layout/all_apps_rv_layout" />
+        <com.android.launcher3.allapps.FloatingHeaderView
+            android:orientation="vertical"
+            android:id="@id/all_apps_header"
+            android:paddingTop="@dimen/all_apps_header_top_padding"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_container_all_apps">
+            <com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip
+                android:orientation="horizontal"
+                android:id="@id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/all_apps_header_pill_height"
+                style="@style/TextHeadline">
+                <Button
+                    android:textSize="14.0sp"
+                    android:textColor="@color/all_apps_tab_text"
+                    android:id="@id/tab_personal"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="@string/all_apps_personal_tab"
+                    android:layout_weight="1.0"
+                    android:textAllCaps="true" />
+                <Button
+                    android:textSize="14.0sp"
+                    android:textColor="@color/all_apps_tab_text"
+                    android:id="@id/tab_work"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="@string/all_apps_work_tab"
+                    android:layout_weight="1.0"
+                    android:textAllCaps="true" />
+            </com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip>
+        </com.android.launcher3.allapps.FloatingHeaderView>
+        <com.android.launcher3.allapps.search.AppsSearchContainerLayout
+            android:textSize="16.0sp"
+            android:textColor="?android:textColorSecondary"
+            android:textColorHint="@drawable/all_apps_search_hint"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:id="@id/search_container_all_apps"
+            android:background="@drawable/bg_all_apps_searchbox"
+            android:padding="8.0dip"
+            android:focusableInTouchMode="true"
+            android:saveEnabled="false"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/all_apps_search_bar_field_height"
+            android:hint="@string/all_apps_search_bar_hint"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:layout_centerHorizontal="true"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:elevation="1.0dip" />
+        <include
+            layout="@layout/all_apps_fast_scroller" />
+    </com.android.launcher3.allapps.AllAppsContainerView>
+</com.android.launcher3.secondarydisplay.SecondaryDragLayer>

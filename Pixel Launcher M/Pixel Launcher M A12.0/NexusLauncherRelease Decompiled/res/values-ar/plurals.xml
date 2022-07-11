@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم</item>
+        <item quantity="two">قبل يومين (%d)</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يومًا</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="zero">قبل %d دقيقة</item>
+        <item quantity="one">قبل %d دقيقة</item>
+        <item quantity="two">قبل دقيقتين (%d)</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">قبل %d سنة</item>
+        <item quantity="zero">قبل %d سنة</item>
+        <item quantity="one">قبل %d سنة</item>
+        <item quantity="two">قبل سنتين (%d)</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنة</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">يتضمن تطبيق %1$s %2$d إشعار.</item>
+        <item quantity="zero">يتضمن تطبيق %1$s %2$d إشعار.​</item>
+        <item quantity="one">يتضمن تطبيق %1$s إشعارًا واحدًا (%2$d).</item>
+        <item quantity="two">يتضمن تطبيق %1$s إشعارين (%2$d).</item>
+        <item quantity="few">يتضمن تطبيق %1$s %2$d إشعارات.​</item>
+        <item quantity="many">يتضمن تطبيق %1$s %2$d إشعارًا.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">%1$d اختصار</item>
+        <item quantity="zero">%1$d اختصار</item>
+        <item quantity="one">اختصار واحد (%1$d)</item>
+        <item quantity="two">اختصاران (%1$d)</item>
+        <item quantity="few">%1$d اختصارات</item>
+        <item quantity="many">%1$d اختصارًا</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">‏%d ساعة</item>
+        <item quantity="zero">‏%d ساعة</item>
+        <item quantity="one">‏ساعة واحدة (%d)</item>
+        <item quantity="two">‏ساعتان (%d)</item>
+        <item quantity="few">‏%d ساعات</item>
+        <item quantity="many">‏%d ساعة</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">‏%d دقيقة</item>
+        <item quantity="zero">‏%d دقيقة</item>
+        <item quantity="one">‏دقيقة واحدة (%d)</item>
+        <item quantity="two">‏دقيقتان (%d)</item>
+        <item quantity="few">‏%d دقائق</item>
+        <item quantity="many">‏%d دقيقة</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d أداة</item>
+        <item quantity="zero">%1$d أداة</item>
+        <item quantity="one">أداة واحدة (%1$d)</item>
+        <item quantity="two">أداتان (%1$d)</item>
+        <item quantity="few">%1$d أدوات</item>
+        <item quantity="many">%1$d أداة</item>
+    </plurals>
+</resources>

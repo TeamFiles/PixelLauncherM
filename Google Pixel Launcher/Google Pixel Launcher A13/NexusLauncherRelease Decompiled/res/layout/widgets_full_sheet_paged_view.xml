@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.workprofile.PersonalWorkPagedView
+        android:id="@id/widgets_view_pager"
+        android:clipToPadding="false"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/collapse_handle"
+        launcher:pageIndicator="@id/tabs">
+        <com.android.launcher3.widget.picker.WidgetsRecyclerView
+            android:id="@id/primary_widgets_list_view"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingHorizontal="@dimen/widget_list_horizontal_margin" />
+        <com.android.launcher3.widget.picker.WidgetsRecyclerView
+            android:id="@id/work_widgets_list_view"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingHorizontal="@dimen/widget_list_horizontal_margin" />
+    </com.android.launcher3.workprofile.PersonalWorkPagedView>
+    <com.android.launcher3.widget.picker.SearchAndRecommendationsView
+        android:orientation="vertical"
+        android:id="@id/search_and_recommendations_container"
+        android:paddingBottom="0.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/collapse_handle"
+        android:layout_marginHorizontal="@dimen/widget_list_horizontal_margin">
+        <TextView
+            android:textSize="24.0sp"
+            android:textColor="?android:textColorSecondary"
+            android:gravity="center_horizontal"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24.0dip"
+            android:text="@string/widget_button_text" />
+        <FrameLayout
+            android:id="@id/search_bar_container"
+            android:background="?android:colorBackground"
+            android:paddingBottom="8.0dip"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0.100000024dip">
+            <include
+                layout="@layout/widgets_search_bar" />
+        </FrameLayout>
+        <com.android.launcher3.widget.picker.WidgetsRecommendationTableLayout
+            android:id="@id/recommended_widget_table"
+            android:background="@drawable/widgets_recommendation_background"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:paddingVertical="@dimen/recommended_widgets_table_vertical_padding" />
+        <com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/tabs"
+            android:background="?android:colorBackground"
+            android:paddingLeft="@dimen/widget_tabs_horizontal_padding"
+            android:paddingRight="@dimen/widget_tabs_horizontal_padding"
+            android:layout_width="fill_parent"
+            android:layout_height="64.0dip"
+            android:paddingVertical="8.0dip"
+            style="@style/TextHeadline">
+            <Button
+                android:textSize="14.0sp"
+                android:textColor="@color/all_apps_tab_text"
+                android:id="@id/tab_personal"
+                android:background="@drawable/all_apps_tabs_background"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:text="@string/widgets_full_sheet_personal_tab"
+                android:layout_weight="1.0"
+                android:layout_marginEnd="@dimen/widget_tabs_button_horizontal_padding"
+                android:layout_marginVertical="@dimen/widget_apps_tabs_vertical_padding"
+                style="?android:borderlessButtonStyle" />
+            <Button
+                android:textSize="14.0sp"
+                android:textColor="@color/all_apps_tab_text"
+                android:id="@id/tab_work"
+                android:background="@drawable/all_apps_tabs_background"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:text="@string/widgets_full_sheet_work_tab"
+                android:layout_weight="1.0"
+                android:layout_marginEnd="@dimen/widget_tabs_button_horizontal_padding"
+                android:layout_marginVertical="@dimen/widget_apps_tabs_vertical_padding"
+                style="?android:borderlessButtonStyle" />
+        </com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip>
+    </com.android.launcher3.widget.picker.SearchAndRecommendationsView>
+</merge>

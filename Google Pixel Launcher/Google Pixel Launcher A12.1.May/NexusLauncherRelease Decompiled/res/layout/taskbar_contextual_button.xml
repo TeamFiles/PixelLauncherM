@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:background="@drawable/taskbar_icon_click_feedback_roundrect"
+    android:layout_width="@dimen/taskbar_nav_buttons_size"
+    android:layout_height="@dimen/taskbar_nav_buttons_size"
+    android:scaleType="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

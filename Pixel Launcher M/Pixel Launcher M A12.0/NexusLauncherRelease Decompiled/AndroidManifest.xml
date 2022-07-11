@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:compileSdkVersion="31"
+    android:compileSdkVersionCodename="12"
+    package="com.google.android.apps.nexuslauncher"
+    platformBuildVersionCode="31"
+    platformBuildVersionName="12"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="false" />
+    <uses-feature
+        android:name="com.google.android.feature.PIXEL_EXPERIENCE"
+        android:required="true" />
+    <permission
+        android:name="com.google.android.apps.nexuslauncher.permission.QSB"
+        android:protectionLevel="signatureOrSystem"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS" />
+    <permission
+        android:name="com.google.android.apps.nexuslauncher.permission.HOTSEAT_EDU"
+        android:protectionLevel="signatureOrSystem"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS" />
+    <uses-permission
+        android:name="android.permission.VIEW_INSTANT_APPS" />
+    <uses-permission
+        android:name="com.google.android.apps.nexuslauncher.permission.QSB" />
+    <uses-permission
+        android:name="com.google.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission
+        android:name="com.google.android.apps.miphone.aiai.matchmaker.overview.service.BIND_SERVICE" />
+    <uses-permission
+        android:name="com.google.android.as.allapps.SUGGESTION_CONSUMER" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission
+        android:name="com.google.pixel.exo.PUSH_STREAMING_CONTENT" />
+    <uses-permission
+        android:name="android.permission.GET_PEOPLE_TILE_PREVIEW" />
+    <uses-permission
+        android:name="android.permission.GET_TOP_ACTIVITY_INFO" />
+    <uses-permission
+        android:name="com.google.android.apps.nexuslauncher.permission.HOTSEAT_EDU" />
+    <uses-permission
+        android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+    <uses-permission
+        android:name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS" />
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission
+        android:name="android.permission.START_TASKS_FROM_RECENTS" />
+    <uses-permission
+        android:name="android.permission.REMOVE_TASKS" />
+    <uses-permission
+        android:name="android.permission.MANAGE_ACTIVITY_TASKS" />
+    <uses-permission
+        android:name="android.permission.STATUS_BAR" />
+    <uses-permission
+        android:name="android.permission.STOP_APP_SWITCHES" />
+    <uses-permission
+        android:name="android.permission.SET_ORIENTATION" />
+    <uses-permission
+        android:name="android.permission.READ_FRAME_BUFFER" />
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCESSIBILITY" />
+    <uses-permission
+        android:name="android.permission.MONITOR_INPUT" />
+    <uses-permission
+        android:name="android.permission.SYSTEM_APPLICATION_OVERLAY" />
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission
+        android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission
+        android:name="android.permission.READ_DEVICE_CONFIG" />
+    <uses-permission
+        android:name="android.permission.ROTATE_SURFACE_FLINGER" />
+    <uses-permission
+        android:name="android.permission.DEVICE_POWER" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE" />
+    <permission
+        android:label="@string/permlab_read_settings"
+        android:name="com.google.android.apps.nexuslauncher.permission.READ_SETTINGS"
+        android:protectionLevel="signatureOrSystem"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:description="@string/permdesc_read_settings" />
+    <permission
+        android:label="@string/permlab_write_settings"
+        android:name="com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS"
+        android:protectionLevel="signatureOrSystem"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:description="@string/permdesc_write_settings" />
+    <uses-permission
+        android:name="com.google.android.apps.nexuslauncher.permission.READ_SETTINGS" />
+    <uses-permission
+        android:name="com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/derived_app_name"
+        android:icon="@drawable/ic_launcher_home"
+        android:backupAgent="com.android.launcher3.LauncherBackupAgent"
+        android:restoreAnyVersion="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="@bool/config_largeHeap"
+        android:supportsRtl="true"
+        android:fullBackupOnly="true"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="@xml/backupscheme"
+        android:backupInForeground="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:usesNonSdkApi="true">
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.google.android.apps.nexuslauncher.NexusLauncherActivity"
+            android:enabled="true"
+            android:taskAffinity=""
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="unspecified"
+            android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:resumeWhilePausing="true"
+            android:resizeableActivity="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.HOME" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.MONKEY" />
+                <category
+                    android:name="android.intent.category.LAUNCHER_APP" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.launcher3.grid.control"
+                android:value="com.google.android.apps.nexuslauncher.grid_control" />
+            <meta-data
+                android:name="com.android.launcher3.themedicon.option"
+                android:value="com.google.android.apps.nexuslauncher.grid_control" />
+        </activity>
+        <provider
+            android:name="com.google.android.apps.nexuslauncher.search.AppSearchProvider"
+            android:exported="true"
+            android:authorities="com.google.android.apps.nexuslauncher.appssearch"
+            android:grantUriPermissions="true" />
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="com.google.android.apps.nexuslauncher.search.AppLaunchActivity">
+            <intent-filter
+                android:priority="1">
+                <action
+                    android:name="com.google.android.apps.nexuslauncher.search.APP_LAUNCH" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="vnd.android.cursor.dir/vnd.android.search.suggest"
+                    android:scheme="content" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="com.google.android.apps.nexuslauncher.EduStarterActivity"
+            android:permission="com.google.android.apps.nexuslauncher.permission.HOTSEAT_EDU"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action
+                    android:name="com.android.launcher3.action.SHOW_HYBRID_HOTSEAT_EDU" />
+                <action
+                    android:name="com.android.launcher3.action.SHOW_ALLAPPS_SEARCH_EDU" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.google.android.apps.nexuslauncher.qsb.LongClickReceiver" />
+        <receiver
+            android:name="com.google.android.apps.nexuslauncher.qsb.OPAStatusReceiver"
+            android:permission="android.permission.CAPTURE_AUDIO_HOTWORD">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.systemui.OPA_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.nexuslauncher.SetupWizardStartReceiver"
+            android:permission="android.permission.REBOOT">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.setupwizard.SETUP_WIZARD_START" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.nexuslauncher.LauncherLayoutPreloadReceiver"
+            android:permission="android.permission.REBOOT">
+            <intent-filter>
+                <action
+                    android:name="com.android.setupwizard.action.LOAD_LAUNCHER_LAYOUT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.nexuslauncher.smartspace.SmartspaceBroadcastReceiver"
+            android:permission="android.permission.CAPTURE_AUDIO_HOTWORD">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.apps.nexuslauncher.UPDATE_SMARTSPACE" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="12529000" />
+        <service
+            android:name="com.android.quickstep.TouchInteractionService"
+            android:permission="android.permission.STATUS_BAR_SERVICE"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.QUICKSTEP_SERVICE" />
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/LauncherTheme"
+            android:name="com.android.quickstep.RecentsActivity"
+            android:taskAffinity=""
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="unspecified"
+            android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:resumeWhilePausing="true"
+            android:resizeableActivity="true" />
+        <provider
+            android:name="com.android.quickstep.LauncherSearchIndexablesProvider"
+            android:permission="android.permission.READ_SEARCH_INDEXABLES"
+            android:exported="true"
+            android:multiprocess="true"
+            android:authorities="com.google.android.apps.nexuslauncher"
+            android:grantUriPermissions="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+            </intent-filter>
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.nexuslauncher.overview.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/overview_file_provider_paths" />
+        </provider>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:name="com.android.launcher3.proxy.ProxyActivityStarter"
+            android:exported="false"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.android.quickstep.interaction.GestureSandboxActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:autoRemoveFromRecents="true">
+            <intent-filter>
+                <action
+                    android:name="com.android.quickstep.action.GESTURE_SANDBOX" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AllSetTheme"
+            android:label="@string/allset_title"
+            android:name="com.android.quickstep.interaction.AllSetActivity"
+            android:permission="android.permission.REBOOT"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:autoRemoveFromRecents="true">
+            <intent-filter>
+                <action
+                    android:name="com.android.quickstep.action.GESTURE_ONBOARDING_ALL_SET" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.android.launcher3.SessionCommitReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.pm.action.SESSION_COMMITTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.launcher3.AppWidgetsRestoredReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_HOST_RESTORED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:label="@string/notification_dots_service_title"
+            android:name="com.android.launcher3.notification.NotificationListener"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="android.nfc.disable_beam_default"
+            android:value="true" />
+        <activity
+            android:theme="@style/AddItemActivityTheme"
+            android:name="com.android.launcher3.dragndrop.AddItemActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
+                <action
+                    android:name="android.content.pm.action.CONFIRM_PIN_APPWIDGET" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.android.launcher3.LauncherProvider"
+            android:readPermission="com.google.android.apps.nexuslauncher.permission.READ_SETTINGS"
+            android:writePermission="com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS"
+            android:exported="true"
+            android:authorities="com.google.android.apps.nexuslauncher.settings" />
+        <provider
+            android:name="com.android.launcher3.graphics.GridCustomizationsProvider"
+            android:exported="true"
+            android:authorities="com.google.android.apps.nexuslauncher.grid_control" />
+        <activity
+            android:theme="@style/HomeSettings.Theme"
+            android:label="@string/settings_button_text"
+            android:name="com.android.launcher3.settings.SettingsActivity"
+            android:exported="true"
+            android:autoRemoveFromRecents="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.APPLICATION_PREFERENCES" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.android.launcher3.testing.TestInformationProvider"
+            android:readPermission="android.permission.WRITE_SECURE_SETTINGS"
+            android:writePermission="android.permission.WRITE_SECURE_SETTINGS"
+            android:enabled="false"
+            android:exported="true"
+            android:authorities="com.google.android.apps.nexuslauncher.TestInfo" />
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.android.launcher3.secondarydisplay.SecondaryDisplayLauncher"
+            android:enabled="true"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.SECONDARY_HOME" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="androidx.slice.compat.SlicePermissionActivity"
+            android:excludeFromRecents="true" />
+    </application>
+</manifest>

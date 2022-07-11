@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    class="com.android.launcher3.graphics.LauncherPreviewRenderer$LauncherPreviewLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.CellLayout
+        android:theme="@style/HomeScreenElementTheme"
+        android:layout_gravity="center|left|top"
+        android:id="@id/workspace"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        launcher:containerType="workspace"
+        launcher:pageIndicator="@id/page_indicator" />
+    <include
+        android:id="@id/hotseat"
+        layout="@layout/hotseat" />
+</view>
