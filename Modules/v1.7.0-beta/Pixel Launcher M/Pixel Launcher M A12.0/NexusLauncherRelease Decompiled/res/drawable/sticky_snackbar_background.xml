@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <solid
+        android:width="1.0dip"
+        android:color="?android:^attr-private/colorSurfaceVariant" />
+    <corners
+        android:topLeftRadius="@dimen/sticky_snackbar_top_radius"
+        android:topRightRadius="@dimen/sticky_snackbar_top_radius" />
+    <padding
+        android:left="@dimen/sticky_snackbar_item_spacing"
+        android:top="@dimen/sticky_snackbar_item_spacing"
+        android:right="@dimen/sticky_snackbar_item_spacing"
+        android:bottom="@dimen/sticky_snackbar_item_spacing" />
+</shape>

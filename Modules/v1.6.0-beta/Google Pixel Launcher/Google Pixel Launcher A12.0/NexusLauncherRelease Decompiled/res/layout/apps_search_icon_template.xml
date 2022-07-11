@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:theme="@style/AppTheme"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="noHideDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/click_feedback_wrapper"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/icon_click_feedback"
+            android:background="@drawable/search_icon_click_feedback"
+            android:duplicateParentState="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView
+        android:id="@android:id/icon"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:tint="@color/qsb_icon_tint" />
+    <TextView
+        android:ellipsize="end"
+        android:id="@android:id/title"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/BaseIcon" />
+</FrameLayout>

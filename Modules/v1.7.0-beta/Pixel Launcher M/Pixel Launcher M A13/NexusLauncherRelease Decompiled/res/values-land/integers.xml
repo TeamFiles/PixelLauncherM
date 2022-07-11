@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gesture_tutorial_extra_conversations_visibility">2</integer>
+    <integer name="gesture_tutorial_extra_messages_visibility">2</integer>
+    <integer name="gesture_tutorial_webpage_extra_lines_visibility">2</integer>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+</resources>

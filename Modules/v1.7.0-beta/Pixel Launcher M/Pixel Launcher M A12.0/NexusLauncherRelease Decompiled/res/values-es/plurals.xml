@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">hace %d días</item>
+        <item quantity="one">hace %d día</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">hace %d minutos</item>
+        <item quantity="one">hace %d minuto</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">hace %d años</item>
+        <item quantity="one">hace %d año</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">%1$s tiene %2$d notificaciones</item>
+        <item quantity="one">%1$s tiene %2$d notificación</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificaciones nuevas</item>
+        <item quantity="one">%d notificación nueva</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">Accesos directos: %1$d</item>
+        <item quantity="one">Acceso directo: %1$d</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d widgets</item>
+        <item quantity="one">%1$d widget</item>
+    </plurals>
+</resources>

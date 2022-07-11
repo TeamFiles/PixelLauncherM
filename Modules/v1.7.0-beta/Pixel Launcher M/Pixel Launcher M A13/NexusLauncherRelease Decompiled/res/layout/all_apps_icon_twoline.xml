@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.BubbleTextView
+    android:id="@id/icon"
+    android:lines="2"
+    android:singleLine="false"
+    android:inputType="textMultiLine"
+    launcher:centerVertically="true"
+    launcher:iconDisplay="all_apps"
+    style="@style/BaseIcon.AllApps"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto" />

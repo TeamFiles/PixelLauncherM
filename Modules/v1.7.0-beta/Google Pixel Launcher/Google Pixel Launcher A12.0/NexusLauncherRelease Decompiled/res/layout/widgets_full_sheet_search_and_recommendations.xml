@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.widget.picker.SearchAndRecommendationsView
+    android:orientation="vertical"
+    android:id="@id/search_and_recommendations_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/collapse_handle"
+        android:background="@drawable/bg_widgets_picker_handle"
+        android:layout_width="fill_parent"
+        android:layout_height="18.0dip"
+        android:elevation="0.100000024dip" />
+    <TextView
+        android:textSize="24.0sp"
+        android:textColor="?android:textColorSecondary"
+        android:gravity="center_horizontal"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:text="@string/widget_button_text" />
+    <FrameLayout
+        android:id="@id/search_bar_container"
+        android:background="?android:colorBackground"
+        android:paddingBottom="8.0dip"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0.100000024dip">
+        <include
+            layout="@layout/widgets_search_bar" />
+    </FrameLayout>
+    <com.android.launcher3.widget.picker.WidgetsRecommendationTableLayout
+        android:id="@id/recommended_widget_table"
+        android:background="@drawable/widgets_recommendation_background"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginHorizontal="@dimen/widget_list_horizontal_margin"
+        android:paddingVertical="@dimen/recommended_widgets_table_vertical_padding" />
+</com.android.launcher3.widget.picker.SearchAndRecommendationsView>

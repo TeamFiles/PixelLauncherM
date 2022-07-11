@@ -1,0 +1,64 @@
+{
+  "apkFileName": "Google-December-12.0.apk",
+  "VersionInfo": {
+    "versionName": "12",
+    "versionCode": "906"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {"stamp-cert-sha256": "8"},
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "classes.dex",
+    "resources.arsc",
+    "META-INF/androidx.activity_activity.version",
+    "META-INF/androidx.annotation_annotation-experimental.version",
+    "META-INF/androidx.appcompat_appcompat-resources.version",
+    "META-INF/androidx.appcompat_appcompat.version",
+    "META-INF/androidx.arch.core_core-runtime.version",
+    "META-INF/androidx.cardview_cardview.version",
+    "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+    "META-INF/androidx.core_core.version",
+    "META-INF/androidx.cursoradapter_cursoradapter.version",
+    "META-INF/androidx.customview_customview.version",
+    "META-INF/androidx.drawerlayout_drawerlayout.version",
+    "META-INF/androidx.dynamicanimation_dynamicanimation.version",
+    "META-INF/androidx.fragment_fragment.version",
+    "META-INF/androidx.interpolator_interpolator.version",
+    "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+    "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+    "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+    "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+    "META-INF/androidx.loader_loader.version",
+    "META-INF/androidx.preference_preference.version",
+    "META-INF/androidx.recyclerview_recyclerview.version",
+    "META-INF/androidx.savedstate_savedstate.version",
+    "META-INF/androidx.slice_slice-core.version",
+    "META-INF/androidx.slice_slice-view.version",
+    "META-INF/androidx.tracing_tracing.version",
+    "META-INF/androidx.transition_transition.version",
+    "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+    "META-INF/androidx.vectordrawable_vectordrawable.version",
+    "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+    "META-INF/androidx.viewpager2_viewpager2.version",
+    "META-INF/androidx.viewpager_viewpager.version",
+    "META-INF/com.google.android.material_material.version",
+    "META-INF/frameworks__base__packages__SystemUI__shared__android_common__SystemUISharedLib.kotlin_module",
+    "META-INF/vendor__unbundled_google__packages__SystemUIGoogle__monet__android_common__monet.kotlin_module",
+    "png"
+  ],
+  "isFrameworkApk": false,
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-220522",
+  "sharedLibrary": false,
+  "sdkInfo": {
+    "minSdkVersion": "31",
+    "targetSdkVersion": "30"
+  }
+}

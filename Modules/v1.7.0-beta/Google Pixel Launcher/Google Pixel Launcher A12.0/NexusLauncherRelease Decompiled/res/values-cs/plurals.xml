@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">před %d dny</item>
+        <item quantity="one">před %d dnem</item>
+        <item quantity="few">před %d dny</item>
+        <item quantity="many">před %d dne</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">před %d min</item>
+        <item quantity="one">před %d min</item>
+        <item quantity="few">před %d min</item>
+        <item quantity="many">před %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">před %d lety</item>
+        <item quantity="one">před %d rokem</item>
+        <item quantity="few">před %d lety</item>
+        <item quantity="many">před %d roku</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">Aplikace %1$s má %2$d oznámení</item>
+        <item quantity="one">Aplikace %1$s má %2$d oznámení</item>
+        <item quantity="few">Aplikace %1$s má %2$d oznámení</item>
+        <item quantity="many">Aplikace %1$s má %2$d oznámení</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">%1$d zkratek</item>
+        <item quantity="one">%1$d zkratka</item>
+        <item quantity="few">%1$d zkratky</item>
+        <item quantity="many">%1$d zkratky</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d widgetů</item>
+        <item quantity="one">%1$d widget</item>
+        <item quantity="few">%1$d widgety</item>
+        <item quantity="many">%1$d widgetu</item>
+    </plurals>
+</resources>

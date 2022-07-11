@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Siku %d zilizopita</item>
+        <item quantity="one">Siku %d iliyopita</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Dak %d zilizopita</item>
+        <item quantity="one">Dak %d iliyopita</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Miaka %d iliyopita</item>
+        <item quantity="one">Mwaka %d uliopita</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">Arifa %d mpya</item>
+        <item quantity="one">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">Saa %d</item>
+        <item quantity="one">Saa %d</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika %d</item>
+    </plurals>
+</resources>

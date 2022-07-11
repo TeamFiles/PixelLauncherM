@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Пред %d дена</item>
+        <item quantity="one">Пред %d ден</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Пред %d мин.</item>
+        <item quantity="one">Пред %d мин.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Пред %d год.</item>
+        <item quantity="one">Пред %d год.</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">%1$s има %2$d известувања</item>
+        <item quantity="one">%1$s има %2$d известување</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известувања</item>
+        <item quantity="one">%d ново известување</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">%1$d кратенки</item>
+        <item quantity="one">%1$d кратенка</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d виџети</item>
+        <item quantity="one">%1$d виџет</item>
+    </plurals>
+</resources>

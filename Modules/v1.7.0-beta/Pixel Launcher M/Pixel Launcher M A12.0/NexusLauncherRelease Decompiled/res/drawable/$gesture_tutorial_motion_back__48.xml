@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_back__48__0"
+        android:duration="217"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="0.75"
+        android:valueType="floatType"
+        android:propertyName="fillAlpha" />
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_back__48__1"
+        android:duration="967"
+        android:startOffset="217"
+        android:valueFrom="0.75"
+        android:valueTo="0.75"
+        android:valueType="floatType"
+        android:propertyName="fillAlpha" />
+    <objectAnimator
+        android:interpolator="@drawable/$$gesture_tutorial_motion_back__48__2"
+        android:duration="167"
+        android:startOffset="1183"
+        android:valueFrom="0.75"
+        android:valueTo="0"
+        android:valueType="floatType"
+        android:propertyName="fillAlpha" />
+</set>

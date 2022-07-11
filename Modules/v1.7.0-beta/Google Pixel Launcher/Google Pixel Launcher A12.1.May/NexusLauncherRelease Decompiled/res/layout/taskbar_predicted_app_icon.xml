@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.uioverrides.PredictedAppIcon
+    style="@style/BaseIcon.Workspace.Taskbar" />

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultIconRow
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/search_result_padding"
+    android:paddingBottom="@dimen/search_result_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/search_result_row_height"
+    android:paddingStart="@dimen/search_result_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.nexuslauncher.allapps.SearchResultIcon
+        android:id="@id/icon"
+        android:layout_width="@dimen/search_row_icon_size"
+        android:layout_height="wrap_content"
+        launcher:iconDisplay="search_result_tall"
+        launcher:layoutHorizontal="true" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/text_rows"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/search_result_padding">
+        <TextView
+            android:textSize="@dimen/search_result_hero_title_size"
+            android:textColor="?android:textColorPrimary"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/AllAppsSearchResult" />
+        <TextView
+            android:textSize="@dimen/search_result_hero_subtitle_size"
+            android:textColor="?android:textColorSecondary"
+            android:ellipsize="end"
+            android:id="@id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            style="@style/AllAppsSearchResult" />
+    </LinearLayout>
+    <com.google.android.apps.nexuslauncher.allapps.SearchResultIcon
+        android:textSize="@dimen/search_hero_inline_button_text_size"
+        android:layout_gravity="center"
+        android:id="@id/shortcut_0"
+        android:layout_width="@dimen/search_row_icon_size"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/search_result_margin"
+        launcher:iconDisplay="search_result_small"
+        launcher:layoutHorizontal="true"
+        style="@style/BaseIcon" />
+    <com.google.android.apps.nexuslauncher.allapps.SearchResultIcon
+        android:textSize="@dimen/search_hero_inline_button_text_size"
+        android:layout_gravity="center_vertical"
+        android:id="@id/shortcut_1"
+        android:layout_width="@dimen/search_row_icon_size"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/search_result_margin"
+        launcher:iconDisplay="search_result_small"
+        launcher:layoutHorizontal="true"
+        style="@style/BaseIcon" />
+    <com.google.android.apps.nexuslauncher.allapps.SearchResultIcon
+        android:textSize="@dimen/search_hero_inline_button_text_size"
+        android:layout_gravity="center_vertical"
+        android:id="@id/shortcut_2"
+        android:layout_width="@dimen/search_row_icon_size"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/search_result_margin"
+        launcher:iconDisplay="search_result_small"
+        launcher:layoutHorizontal="true"
+        style="@style/BaseIcon" />
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="@dimen/search_row_icon_size"
+        android:layout_height="@dimen/search_row_icon_size"
+        android:layout_margin="@dimen/search_result_margin">
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@id/settings_search_button"
+            android:background="@drawable/circle_accentprimary_32dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search" />
+    </FrameLayout>
+</com.google.android.apps.nexuslauncher.allapps.SearchResultIconRow>

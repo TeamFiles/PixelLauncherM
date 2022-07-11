@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.systemui.smartspace.BcSmartspaceCardDoorbell
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <androidx.cardview.widget.CardView
+        android:id="@id/loading_screen"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        app:cardBackgroundColor="?android:^attr-private/colorSurface"
+        app:cardCornerRadius="@dimen/enhanced_smartspace_secondary_card_corner_radius"
+        app:cardElevation="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/indeterminateBar"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:indeterminateTint="?android:textColorSecondary" />
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/loading_screen_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/videocam" />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</com.google.android.systemui.smartspace.BcSmartspaceCardDoorbell>

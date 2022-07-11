@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">ပြီးခဲ့သော %d ရက်</item>
+        <item quantity="one">ပြီးခဲ့သော %d ရက်</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">ပြီးခဲ့သော %d မိနစ်</item>
+        <item quantity="one">ပြီးခဲ့သော %d မိနစ်</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">ပြီးခဲ့သော %d နှစ်</item>
+        <item quantity="one">ပြီးခဲ့သော %d နှစ်</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="one">%d နာရီ</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">%d မိနစ်</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    android:color="?android:colorControlHighlight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape
+        android:shape="rectangle">
+        <solid
+            android:color="@android:color/transparent" />
+        <corners
+            android:radius="@dimen/all_apps_header_pill_corner_radius" />
+    </shape>
+</ripple>

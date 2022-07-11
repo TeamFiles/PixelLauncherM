@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.allapps.WorkModeSwitch
+    android:textSize="14.0sp"
+    android:textColor="@color/all_apps_tab_text"
+    android:gravity="center"
+    android:id="@id/work_mode_toggle"
+    android:background="@drawable/work_apps_toggle_background"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/work_fab_height"
+    android:layout_marginBottom="@dimen/work_fab_margin"
+    android:text="@string/work_apps_pause_btn_text"
+    android:includeFontPadding="false"
+    android:drawablePadding="8.0dip"
+    android:layout_alignParentBottom="true"
+    android:drawableStart="@drawable/ic_corp_off"
+    android:layout_marginEnd="@dimen/work_fab_margin"
+    android:layout_alignParentEnd="true"
+    android:drawableTint="@color/all_apps_tab_text"
+    style="@style/TextHeadline"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

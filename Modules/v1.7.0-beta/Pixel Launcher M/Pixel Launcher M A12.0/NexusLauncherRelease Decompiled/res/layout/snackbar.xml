@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/snackbar_max_text_size"
+        android:textColor="?android:textColorPrimary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/label"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/snackbar_content_height"
+        android:lines="1"
+        android:layout_weight="1.0"
+        style="@style/TextTitle" />
+    <TextView
+        android:textSize="@dimen/snackbar_max_text_size"
+        android:textStyle="bold"
+        android:textColor="?android:colorAccent"
+        android:gravity="center"
+        android:id="@id/action"
+        android:background="?android:selectableItemBackground"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/snackbar_content_height"
+        android:capitalize="sentences"
+        android:layout_weight="0.0"
+        style="@style/TextTitle" />
+</merge>

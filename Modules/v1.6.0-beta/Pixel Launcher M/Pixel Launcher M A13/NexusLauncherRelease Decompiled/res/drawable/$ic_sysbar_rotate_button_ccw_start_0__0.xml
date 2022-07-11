@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:name="root"
+    android:height="28.0dip"
+    android:width="28.0dip"
+    android:viewportWidth="28.0"
+    android:viewportHeight="28.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <group
+        android:name="icon"
+        android:pivotX="14.0"
+        android:pivotY="14.0"
+        android:scaleX="1.0">
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="M12.02,10.83L9.25,8.06l2.77,-2.77l1.12,1.12l-0.85,0.86h5.16c0.72,0 1.31,0.56 1.31,1.26v9.16l-1.58,-1.58V8.85h-4.89l0.86,0.86L12.02,10.83zM15.98,17.17l-1.12,1.12l0.85,0.86h-4.88v-7.26L9.25,10.3v9.17c0,0.7 0.59,1.26 1.31,1.26h5.16v0.01l-0.85,0.85l1.12,1.12l2.77,-2.77L15.98,17.17z" />
+    </group>
+</vector>

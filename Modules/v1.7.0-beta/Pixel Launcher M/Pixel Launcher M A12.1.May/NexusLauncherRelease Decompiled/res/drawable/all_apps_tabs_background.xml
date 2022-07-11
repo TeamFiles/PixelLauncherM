@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    android:enterFadeDuration="100"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="false"
+        android:id="@id/unselected">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="@dimen/all_apps_header_pill_corner_radius" />
+            <solid
+                android:color="@color/all_apps_tabs_background" />
+        </shape>
+    </item>
+    <item
+        android:state_selected="true"
+        android:id="@id/selected">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="@dimen/all_apps_header_pill_corner_radius" />
+            <solid
+                android:color="@color/all_apps_tab_background_selected" />
+        </shape>
+    </item>
+</selector>

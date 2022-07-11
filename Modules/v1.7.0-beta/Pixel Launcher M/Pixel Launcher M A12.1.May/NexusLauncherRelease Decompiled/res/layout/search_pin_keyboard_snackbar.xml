@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.PinKeyboardSnackBar
+    android:gravity="center"
+    android:layout_gravity="bottom"
+    android:background="@drawable/sticky_snackbar_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/snackbar_height"
+    launcher:centerVertically="true"
+    launcher:iconDisplay="all_apps"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="?android:textColorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_keyboard_snackbar_prompt"
+        android:layout_weight="1.0"
+        android:layout_marginHorizontal="@dimen/sticky_snackbar_item_spacing"
+        style="@style/TextHeadline" />
+    <Button
+        android:textSize="14.0sp"
+        android:textColor="?android:textColorPrimary"
+        android:id="@id/accept"
+        android:background="@drawable/padded_rounded_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/padded_rounded_button_height"
+        android:text="@string/search_keyboard_snackbar_turn_on"
+        style="@style/TextHeadline" />
+    <ImageButton
+        android:id="@id/dismiss"
+        android:background="@drawable/sticky_snackbar_dismiss_btn_background"
+        android:layout_width="@dimen/padded_rounded_button_height"
+        android:layout_height="@dimen/padded_rounded_button_height"
+        android:src="@drawable/ic_remove_no_shadow"
+        android:contentDescription="@string/search_keyboard_snackbar_turn_off"
+        style="@style/TextHeadline" />
+</com.google.android.apps.nexuslauncher.allapps.PinKeyboardSnackBar>

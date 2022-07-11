@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">%d 天前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">%d 分鐘前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d 年前</item>
+        <item quantity="one">%d 年前</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">%1$s，有 %2$d 項通知</item>
+        <item quantity="one">%1$s，有 %2$d 項通知</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 個新通知</item>
+        <item quantity="one">%d 個新通知</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">%1$d 個捷徑</item>
+        <item quantity="one">%1$d 個捷徑</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">%d 小時</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d 個小工具</item>
+        <item quantity="one">%1$d 個小工具</item>
+    </plurals>
+</resources>

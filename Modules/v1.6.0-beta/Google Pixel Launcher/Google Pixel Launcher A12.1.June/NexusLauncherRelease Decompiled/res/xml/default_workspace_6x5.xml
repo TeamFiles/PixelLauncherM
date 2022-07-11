@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <favorite
+        launcher:className="com.google.android.gm.ConversationListActivityGmail"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.gm"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.apps.chrome.Main"
+        launcher:container="-101"
+        launcher:packageName="com.android.chrome"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.youtube"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.google.android.apps.photos.home.HomeActivity"
+        launcher:container="-101"
+        launcher:packageName="com.google.android.apps.photos"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+    <resolve
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="-1">
+        <favorite
+            launcher:className="com.android.camera.CameraLauncher"
+            launcher:packageName="com.google.android.GoogleCamera" />
+        <favorite
+            launcher:uri="\#Intent;action=android.media.action.STILL_IMAGE_CAMERA;end" />
+        <favorite
+            launcher:uri="\#Intent;action=android.intent.action.CAMERA_BUTTON;end" />
+    </resolve>
+    <favorite
+        launcher:className="com.google.android.maps.MapsActivity"
+        launcher:packageName="com.google.android.apps.maps"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="-1" />
+    <favorite
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:packageName="com.android.vending"
+        launcher:screen="0"
+        launcher:x="5"
+        launcher:y="-1" />
+</favorites>

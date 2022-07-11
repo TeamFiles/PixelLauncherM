@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/qsb_background_container"
+        android:background="@drawable/bg_google_qsb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:backgroundTint="?android:colorBackground" />
+    <FrameLayout
+        android:id="@id/qsb_icon_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_gravity="start|center"
+            android:id="@id/g_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_super_g_color" />
+        <ImageView
+            android:layout_gravity="end|center"
+            android:id="@id/mic_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic_color"
+            android:layout_marginEnd="2.0dip" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.widgetpicker.NexusWidgetsSearchBar
+    android:orientation="horizontal"
+    android:id="@id/widgets_search_bar"
+    android:background="@drawable/bg_widgets_searchbox"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.ExtendedEditText
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorSecondary"
+        android:id="@id/widgets_search_bar_edit_text"
+        android:background="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/widgets_full_sheet_search_bar_hint"
+        android:maxLines="1"
+        android:drawablePadding="8.0dip"
+        android:layout_weight="1.0"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:drawableStart="@drawable/ic_allapps_search"
+        android:fontFamily="@font/google_sans"
+        android:paddingStart="12.0dip"
+        android:paddingEnd="0.0dip"
+        android:paddingVertical="12.0dip" />
+    <ImageButton
+        android:layout_gravity="center"
+        android:id="@id/widgets_search_cancel_button"
+        android:background="@drawable/full_rounded_transparent_ripple"
+        android:padding="12.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gm_close_24"
+        android:contentDescription="@string/widgets_full_sheet_cancel_button_description" />
+</com.google.android.apps.nexuslauncher.widgetpicker.NexusWidgetsSearchBar>

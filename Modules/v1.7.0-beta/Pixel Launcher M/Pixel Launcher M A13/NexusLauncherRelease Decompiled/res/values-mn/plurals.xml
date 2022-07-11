@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d өдрийн өмнө</item>
+        <item quantity="one">%d өдрийн өмнө</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d минутын өмнө</item>
+        <item quantity="one">%d минутын өмнө</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d жилийн өмнө</item>
+        <item quantity="one">%d жилийн өмнө</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d цаг</item>
+        <item quantity="one">%d цаг</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
+</resources>

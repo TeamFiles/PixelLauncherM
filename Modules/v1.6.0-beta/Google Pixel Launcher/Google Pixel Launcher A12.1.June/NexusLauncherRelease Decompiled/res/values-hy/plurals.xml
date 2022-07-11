@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d օր առաջ</item>
+        <item quantity="one">%d օր առաջ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d րոպե առաջ</item>
+        <item quantity="one">%d րոպե առաջ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d տարի առաջ</item>
+        <item quantity="one">%d տարի առաջ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d նոր ծանուցում</item>
+        <item quantity="one">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d ժ</item>
+        <item quantity="one">%d ժ</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d ր</item>
+        <item quantity="one">%d ր</item>
+    </plurals>
+</resources>

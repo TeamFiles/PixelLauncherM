@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="all_apps_bottom_sheet_horizontal_padding">32.0dip</dimen>
+    <dimen name="bottom_sheet_extra_top_padding">0.0dip</dimen>
+    <dimen name="carousel_selected_circle_radius">18.0dip</dimen>
+    <dimen name="cell_layout_padding">29.329987dip</dimen>
+    <dimen name="drop_target_top_margin">0.0dip</dimen>
+    <dimen name="dynamic_grid_edge_margin">21.929993dip</dimen>
+    <dimen name="qsb_overlap_margin">-50.0dip</dimen>
+    <dimen name="spring_loaded_hotseat_top_margin">64.0dip</dimen>
+    <dimen name="widget_list_horizontal_margin">49.0dip</dimen>
+</resources>

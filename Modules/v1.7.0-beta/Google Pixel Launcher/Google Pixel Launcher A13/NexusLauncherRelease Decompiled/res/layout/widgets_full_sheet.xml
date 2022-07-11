@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.widget.picker.WidgetsFullSheet
+    android:theme="?widgetsTheme"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.views.SpringRelativeLayout
+        android:id="@id/container"
+        android:background="@drawable/bg_widgets_full_sheet"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no">
+        <View
+            android:id="@id/collapse_handle"
+            android:background="@drawable/bg_rounded_corner_bottom_sheet_handle"
+            android:layout_width="@dimen/bottom_sheet_handle_width"
+            android:layout_height="@dimen/bottom_sheet_handle_height"
+            android:layout_marginTop="@dimen/bottom_sheet_handle_margin"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:textSize="20.0sp"
+            android:gravity="center"
+            android:id="@id/no_widgets_text"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/search_and_recommendations_container" />
+        <TextView
+            android:id="@id/fast_scroller_popup"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/fastscroll_popup_margin"
+            android:layout_alignParentEnd="true"
+            style="@style/FastScrollerPopup" />
+        <com.android.launcher3.views.RecyclerViewFastScroller
+            android:id="@id/fast_scroller"
+            android:layout_width="@dimen/fastscroll_width"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/fastscroll_end_margin"
+            android:layout_alignParentEnd="true" />
+        <com.android.launcher3.widget.picker.WidgetsRecyclerView
+            android:id="@id/search_widgets_list_view"
+            android:visibility="gone"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/collapse_handle"
+            android:paddingHorizontal="@dimen/widget_list_horizontal_margin" />
+    </com.android.launcher3.views.SpringRelativeLayout>
+</com.android.launcher3.widget.picker.WidgetsFullSheet>

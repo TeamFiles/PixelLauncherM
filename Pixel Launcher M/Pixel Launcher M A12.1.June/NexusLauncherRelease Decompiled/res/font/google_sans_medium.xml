@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<font-family
-    android:fontProviderAuthority="com.google.android.gms.fonts"
-    android:fontProviderQuery="Google Sans:500"
-    android:fontProviderPackage="com.google.android.gms"
-    android:fontProviderCerts="@array/com_google_android_gms_fonts_certs"
-    xmlns:android="http://schemas.android.com/apk/res/android" />

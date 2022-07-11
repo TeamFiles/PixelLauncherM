@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple
+        android:color="?android:colorControlHighlight">
+        <item>
+            <shape
+                android:shape="rectangle">
+                <corners
+                    android:topLeftRadius="4.0dip"
+                    android:topRightRadius="4.0dip"
+                    android:bottomLeftRadius="12.0dip"
+                    android:bottomRightRadius="12.0dip" />
+                <solid
+                    android:color="@color/button_bg" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

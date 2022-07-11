@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textDirection="locale"
+    android:layoutDirection="locale"
+    android:paddingStart="@dimen/allset_page_margin_horizontal"
+    android:paddingEnd="@dimen/allset_page_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/allset_title_icon_margin_top"
+            android:src="@drawable/ic_all_set" />
+        <TextView
+            android:gravity="start"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/allset_title_margin_top"
+            android:text="@string/allset_title"
+            style="@style/TextAppearance.GestureTutorial.Feedback.Title" />
+        <TextView
+            android:gravity="start"
+            android:id="@id/subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/allset_subtitle_margin_top"
+            android:text="@string/allset_description"
+            style="@style/TextAppearance.GestureTutorial.Feedback.Subtitle" />
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:id="@id/navigation_settings"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72.0dip"
+        android:minHeight="48.0dip"
+        android:text="@string/allset_navigation_settings"
+        android:layout_above="@id/hint"
+        style="@style/TextAppearance.GestureTutorial.LinkText" />
+    <TextView
+        android:textSize="14.0sp"
+        android:id="@id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/allset_hint_margin_bottom"
+        android:text="@string/allset_hint"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/TextAppearance.GestureTutorial.Feedback.Subtitle" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.DeviceSearchInputView
+    android:orientation="horizontal"
+    android:id="@id/search_container_all_apps"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/search_box_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/search_wrapper"
+        android:background="@drawable/search_input_ripple"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/search_box_height">
+        <com.google.android.apps.nexuslauncher.search.TypeAheadSearchInputView
+            android:id="@id/typeahead_input"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/search_box_height"
+            launcher:hint="@string/allapps_search_hint" />
+    </LinearLayout>
+    <ImageButton
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/action_btn"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:layout_width="@dimen/search_box_height"
+        android:layout_height="@dimen/search_box_height"
+        android:src="@drawable/ic_remove_no_shadow"
+        android:scaleType="center"
+        android:tint="?android:textColorSecondary"
+        android:contentDescription="@string/search_input_action_clear_results" />
+</com.google.android.apps.nexuslauncher.allapps.DeviceSearchInputView>

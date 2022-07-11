@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.search.FallbackSearchInputView
+    android:textSize="16.0sp"
+    android:textColor="?android:textColorSecondary"
+    android:textColorHint="?android:textColorTertiary"
+    android:gravity="start|center"
+    android:layout_gravity="center_vertical"
+    android:background="@android:color/transparent"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="48.0dip"
+    android:layout_marginRight="48.0dip"
+    android:maxLines="1"
+    android:scrollHorizontally="true"
+    android:singleLine="true"
+    android:inputType="textNoSuggestions"
+    android:privateImeOptions="bc_search;need_conversion"
+    android:imeOptions="actionGo|flagNoExtractUi"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

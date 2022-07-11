@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.views.WidgetsEduView
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/edu_view"
+        android:background="@drawable/bg_rounded_corner_bottom_sheet"
+        android:paddingTop="@dimen/bottom_sheet_edu_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/bottom_sheet_edu_padding">
+        <TextView
+            android:textSize="24.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:gravity="center_horizontal"
+            android:id="@id/edu_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.0dip"
+            android:text="@string/widget_education_header"
+            style="@style/TextHeadline" />
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="?android:textColorSecondary"
+            android:gravity="center_horizontal"
+            android:id="@id/edu_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dip"
+            android:text="@string/widget_education_content" />
+        <Button
+            android:textSize="16.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:id="@id/edu_tips_button"
+            android:layout_width="fill_parent"
+            android:layout_height="56.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:text="@string/widget_education_tips_button"
+            android:onClick="openWidgetEducationInPixelTips"
+            style="@style/Button.TopRounded.Bordered" />
+        <Button
+            android:textSize="16.0sp"
+            android:textColor="@color/button_text"
+            android:id="@id/edu_close_button"
+            android:layout_width="fill_parent"
+            android:layout_height="56.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="@string/widget_education_close_button"
+            style="@style/Button.BottomRounded.Colored" />
+    </LinearLayout>
+</com.android.launcher3.views.WidgetsEduView>

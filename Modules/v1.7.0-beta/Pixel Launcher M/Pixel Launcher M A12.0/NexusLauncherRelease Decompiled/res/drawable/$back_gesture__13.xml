@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/$$back_gesture__13__0"
+        android:duration="333"
+        android:startOffset="0"
+        android:valueFrom="M37.4 46.68 C37.4,46.68 53.75,25.93 70.25,28.88 "
+        android:valueTo="M37.4 46.68 C37.4,46.68 53.75,25.93 70.25,28.88 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$back_gesture__13__1"
+        android:duration="667"
+        android:startOffset="333"
+        android:valueFrom="M37.4 46.68 C37.4,46.68 53.75,25.93 70.25,28.88 "
+        android:valueTo="M29.25 53.2 C29.25,53.2 40.54,27.94 70.07,31.11 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$back_gesture__13__2"
+        android:duration="600"
+        android:startOffset="1000"
+        android:valueFrom="M29.25 53.2 C29.25,53.2 40.54,27.94 70.07,31.11 "
+        android:valueTo="M29.25 53.2 C29.25,53.2 40.54,27.94 70.07,31.11 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@drawable/$$back_gesture__13__3"
+        android:duration="1067"
+        android:startOffset="1600"
+        android:valueFrom="M29.25 53.2 C29.25,53.2 40.54,27.94 70.07,31.11 "
+        android:valueTo="M37.4 46.68 C37.4,46.68 53.75,25.93 70.25,28.88 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

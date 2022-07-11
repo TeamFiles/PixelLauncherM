@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultWidget
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/widget_section_vertical_padding"
+    android:paddingVertical="@dimen/widget_section_vertical_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.android.launcher3.BubbleTextView
+            android:textSize="16.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:gravity="start|center"
+            android:id="@id/widget_provider"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/widget_section_height"
+            android:singleLine="true"
+            android:drawablePadding="@dimen/widget_section_horizontal_padding"
+            android:textAlignment="viewStart"
+            android:paddingHorizontal="@dimen/widget_section_horizontal_padding"
+            android:paddingVertical="@dimen/widget_section_horizontal_padding"
+            launcher:iconDisplay="widget_section"
+            launcher:iconSizeOverride="@dimen/widget_section_icon_size"
+            launcher:layoutHorizontal="true" />
+        <TextView
+            android:textSize="16.0sp"
+            android:id="@id/widget_label"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/widget_section_height" />
+    </LinearLayout>
+</com.google.android.apps.nexuslauncher.allapps.SearchResultWidget>

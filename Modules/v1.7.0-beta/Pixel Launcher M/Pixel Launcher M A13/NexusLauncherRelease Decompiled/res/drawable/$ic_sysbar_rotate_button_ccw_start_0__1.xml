@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="1700"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="100"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="1700"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="100"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="1700"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="100"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="1700"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="alpha" />
+    <objectAnimator
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="100"
+        android:startOffset="100"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="alpha" />
+</set>

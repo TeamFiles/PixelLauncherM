@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <resolve
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0">
+        <favorite
+            launcher:uri="\#Intent;action=android.intent.action.MAIN;category=android.intent.category.CATEGORY_TEST;component=com.google.android.apps.nexuslauncher.tests/com.android.launcher3.testcomponent.BaseTestingActivity;end" />
+    </resolve>
+</favorites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    android:orientation="vertical"
+    android:id="@id/popup_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    class="com.google.android.apps.nexuslauncher.customize.OptionsPopupDialog$PopupView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/wallpaper_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2.0dip">
+        <com.google.android.apps.nexuslauncher.customize.WallpaperCarouselView
+            android:orientation="horizontal"
+            android:id="@id/wallpaper_carousel"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_margin="@dimen/system_shortcut_margin_start" />
+    </LinearLayout>
+</view>

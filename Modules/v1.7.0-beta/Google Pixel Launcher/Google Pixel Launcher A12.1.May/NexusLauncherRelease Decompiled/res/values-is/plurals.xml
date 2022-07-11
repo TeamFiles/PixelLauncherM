@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Fyrir %d dögum</item>
+        <item quantity="one">Fyrir %d degi</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Fyrir %d mín.</item>
+        <item quantity="one">Fyrir %d mín.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Fyrir %d árum</item>
+        <item quantity="one">Fyrir %d ári</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nýjar tilkynningar</item>
+        <item quantity="one">%d ný tilkynning</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d klst.</item>
+        <item quantity="one">%d klst.</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d mín.</item>
+        <item quantity="one">%d mín.</item>
+    </plurals>
+</resources>

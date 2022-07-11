@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.TaskView
+    android:focusable="true"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:defaultFocusHighlightEnabled="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.quickstep.views.TaskThumbnailView
+        android:id="@id/snapshot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.android.quickstep.views.IconView
+        android:id="@id/icon"
+        android:focusable="false"
+        android:layout_width="@dimen/task_thumbnail_icon_size"
+        android:layout_height="@dimen/task_thumbnail_icon_size"
+        android:importantForAccessibility="no" />
+</com.android.quickstep.views.TaskView>

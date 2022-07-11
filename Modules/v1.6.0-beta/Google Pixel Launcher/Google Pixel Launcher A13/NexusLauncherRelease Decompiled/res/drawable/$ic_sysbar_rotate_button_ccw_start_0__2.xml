@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/$$ic_sysbar_rotate_button_ccw_start_0__2__0"
+        android:duration="600"
+        android:startOffset="100"
+        android:valueFrom="0"
+        android:valueTo="-90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/$$ic_sysbar_rotate_button_ccw_start_0__2__1"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="-90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/$$ic_sysbar_rotate_button_ccw_start_0__2__2"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="-90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/$$ic_sysbar_rotate_button_ccw_start_0__2__3"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="-90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/$$ic_sysbar_rotate_button_ccw_start_0__2__4"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="-90"
+        android:propertyName="rotation" />
+</set>

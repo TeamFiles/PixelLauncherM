@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.overview.NexusOverviewActionsView
+    android:layout_gravity="bottom|center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="bottom|center"
+        android:orientation="horizontal"
+        android:id="@id/action_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/overview_actions_height">
+        <Space
+            android:id="@id/space_start_screenshot"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="3.0" />
+        <Button
+            android:theme="@style/ThemeControlHighlightWorkspaceColor"
+            android:layout_gravity="end"
+            android:id="@id/action_screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_screenshot"
+            android:drawableStart="@drawable/ic_screenshot"
+            android:hyphenationFrequency="full"
+            style="@style/OverviewActionButton" />
+        <Space
+            android:id="@id/action_screenshot_space"
+            android:layout_width="@dimen/overview_actions_button_spacing"
+            android:layout_height="1.0dip" />
+        <Button
+            android:theme="@style/ThemeControlHighlightWorkspaceColor"
+            android:layout_gravity="start"
+            android:id="@id/action_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_select"
+            android:drawableStart="@drawable/ic_select"
+            android:hyphenationFrequency="full"
+            style="@style/OverviewActionButton" />
+        <Space
+            android:id="@id/action_split_space"
+            android:visibility="gone"
+            android:layout_width="@dimen/overview_actions_button_spacing"
+            android:layout_height="1.0dip" />
+        <Button
+            android:theme="@style/ThemeControlHighlightWorkspaceColor"
+            android:layout_gravity="start"
+            android:id="@id/action_split"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_split"
+            android:hyphenationFrequency="full"
+            style="@style/OverviewActionButton" />
+        <Space
+            android:id="@id/space_end_select"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="3.0" />
+        <Space
+            android:id="@id/oav_three_button_space"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="3.0" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_gravity="bottom|center"
+        android:id="@id/select_mode_buttons"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:theme="@style/ThemeControlHighlightWorkspaceColor"
+            android:layout_gravity="center"
+            android:id="@id/close"
+            android:background="@drawable/circle_btn_bg"
+            android:layout_width="@dimen/select_mode_close_button_size"
+            android:layout_height="@dimen/select_mode_close_button_size"
+            android:src="@drawable/ic_close"
+            android:contentDescription="@string/close"
+            style="@style/OverviewActionButton" />
+    </FrameLayout>
+    <com.google.android.apps.nexuslauncher.overview.ShareTargetsView
+        android:gravity="start|center|top"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/share_targets_view"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/share_target_top_margin"
+        android:layout_marginBottom="@dimen/share_target_bottom_margin" />
+</com.google.android.apps.nexuslauncher.overview.NexusOverviewActionsView>

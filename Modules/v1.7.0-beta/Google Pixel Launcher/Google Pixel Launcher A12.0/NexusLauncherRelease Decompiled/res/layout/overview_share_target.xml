@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    android:textSize="@dimen/share_target_text_size"
+    android:textColor="?android:textColorPrimary"
+    android:ellipsize="end"
+    android:gravity="center|top"
+    android:background="@drawable/share_target_background"
+    android:paddingTop="@dimen/share_target_icon_padding"
+    android:paddingBottom="@dimen/share_target_icon_padding"
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    android:lines="1"
+    android:scrollHorizontally="false"
+    android:paddingStart="@dimen/dynamic_grid_cell_padding_x"
+    android:paddingEnd="@dimen/dynamic_grid_cell_padding_x"
+    style="?android:textAppearanceSmall"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

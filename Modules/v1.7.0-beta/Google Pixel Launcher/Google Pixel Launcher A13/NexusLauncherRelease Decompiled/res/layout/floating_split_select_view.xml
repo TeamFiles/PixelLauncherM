@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.FloatingTaskView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.quickstep.views.FloatingTaskThumbnailView
+        android:id="@id/thumbnail"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.android.quickstep.views.SplitPlaceholderView
+        android:id="@id/split_placeholder"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/split_placeholder_size" />
+</com.android.quickstep.views.FloatingTaskView>

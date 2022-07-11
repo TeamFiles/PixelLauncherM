@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:id="@id/tabs"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/all_apps_header_pill_height"
+    android:layout_marginHorizontal="@dimen/widget_tabs_horizontal_margin"
+    style="@style/TextHeadline"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:textSize="14.0sp"
+        android:textColor="@color/all_apps_tab_text"
+        android:id="@id/tab_personal"
+        android:background="@drawable/all_apps_tabs_background"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:text="@string/widgets_full_sheet_personal_tab"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/widget_tabs_button_horizontal_padding"
+        android:layout_marginVertical="@dimen/widget_apps_tabs_vertical_padding"
+        style="?android:borderlessButtonStyle" />
+    <Button
+        android:textSize="14.0sp"
+        android:textColor="@color/all_apps_tab_text"
+        android:id="@id/tab_work"
+        android:background="@drawable/all_apps_tabs_background"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:text="@string/widgets_full_sheet_work_tab"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/widget_tabs_button_horizontal_padding"
+        android:layout_marginVertical="@dimen/widget_apps_tabs_vertical_padding"
+        style="?android:borderlessButtonStyle" />
+</com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip>

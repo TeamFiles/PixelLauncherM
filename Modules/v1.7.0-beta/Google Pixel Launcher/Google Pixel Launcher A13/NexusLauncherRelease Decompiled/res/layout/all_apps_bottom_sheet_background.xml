@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/bottom_sheet_background"
+    android:background="@drawable/bg_rounded_corner_bottom_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/bottom_sheet_handle_area"
+        android:layout_width="fill_parent"
+        android:layout_height="36.0dip" />
+    <View
+        android:layout_gravity="center_horizontal"
+        android:id="@id/bottom_sheet_handle"
+        android:background="@drawable/bg_rounded_corner_bottom_sheet_handle"
+        android:layout_width="@dimen/bottom_sheet_handle_width"
+        android:layout_height="@dimen/bottom_sheet_handle_height"
+        android:layout_marginTop="@dimen/bottom_sheet_handle_margin"
+        android:layout_marginBottom="@dimen/bottom_sheet_handle_margin" />
+</FrameLayout>

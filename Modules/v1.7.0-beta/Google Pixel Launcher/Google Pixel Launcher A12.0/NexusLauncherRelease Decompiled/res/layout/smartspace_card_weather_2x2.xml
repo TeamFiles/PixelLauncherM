@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:id="@id/smartspace_content"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:paddingStart="@dimen/smartspace_padding_start_end_2x2"
+    android:paddingEnd="@dimen/smartspace_padding_start_end_2x2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.google.android.apps.nexuslauncher.graphics.DoubleShadowTextView
+            android:textSize="@dimen/smartspace_card_title_size_2x2"
+            android:id="@id/title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:paddingEnd="20.0dip"
+            style="@style/SmartspaceTextHeadline" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/subtitle_line"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip">
+            <com.google.android.apps.nexuslauncher.graphics.DoubleShadowTextView
+                android:textSize="@dimen/smartspace_subtitle_size_2x2"
+                android:id="@id/subtitle_text"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:layout_weight="1.0"
+                android:inputType="textNoSuggestions"
+                launcher:leadIconMargin="6.0dip"
+                launcher:leadIconSize="@dimen/smartspace_icon_size_2x2"
+                style="@style/SmartspaceTextTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/weather_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:layout_marginStart="18.0dip">
+        <ImageView
+            android:id="@id/weather_icon"
+            android:layout_width="@dimen/smartspace_card_weather_icon_size_2x2"
+            android:layout_height="@dimen/smartspace_card_weather_icon_size_2x2"
+            android:layout_marginTop="@dimen/smartspace_card_weather_icon_margin_top_2x2" />
+        <com.google.android.apps.nexuslauncher.graphics.DoubleShadowTextView
+            android:textSize="@dimen/smartspace_card_weather_text_size_2x2"
+            android:textColor="?workspaceTextColor"
+            android:id="@id/title_weather_text"
+            android:clickable="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SmartspaceTextHeadline" />
+    </LinearLayout>
+</LinearLayout>

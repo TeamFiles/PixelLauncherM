@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.allapps.WorkEduCard
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/wrapper"
+        android:background="@drawable/work_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/work_card_padding_horizontal"
+        android:paddingVertical="@dimen/work_card_padding_horizontal">
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:id="@id/work_apps_paused_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/work_card_padding_horizontal"
+            android:text="@string/work_profile_edu_work_apps"
+            android:textAlignment="center"
+            style="@style/PrimaryHeadline" />
+        <Button
+            android:textSize="14.0sp"
+            android:textColor="?workProfileOverlayTextColor"
+            android:id="@id/action_btn"
+            android:background="@drawable/rounded_action_button"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/work_card_button_height"
+            android:text="@string/work_profile_edu_accept"
+            android:textAlignment="center" />
+    </LinearLayout>
+</com.android.launcher3.allapps.WorkEduCard>

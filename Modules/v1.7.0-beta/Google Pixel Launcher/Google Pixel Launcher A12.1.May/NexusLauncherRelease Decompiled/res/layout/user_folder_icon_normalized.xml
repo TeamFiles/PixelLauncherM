@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.folder.Folder
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.folder.FolderPagedView
+        android:id="@id/folder_content"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        launcher:pageIndicator="@id/folder_page_indicator" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/folder_footer"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="12.0dip"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip">
+        <com.android.launcher3.folder.FolderNameEditText
+            android:textColor="?folderTextColor"
+            android:textColorHighlight="?android:colorControlHighlight"
+            android:textColorHint="?folderHintColor"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:id="@id/folder_name"
+            android:background="@android:color/transparent"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:hint="@string/folder_hint_text"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            android:imeOptions="flagNoExtractUi"
+            style="@style/TextHeadline" />
+        <com.android.launcher3.pageindicators.PageIndicatorDots
+            android:layout_gravity="center_vertical"
+            android:id="@id/folder_page_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="1.0dip" />
+    </LinearLayout>
+</com.android.launcher3.folder.Folder>

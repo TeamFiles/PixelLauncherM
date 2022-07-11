@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Prije %d dana</item>
+        <item quantity="one">Prije %d dan</item>
+        <item quantity="few">Prije %d dana</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Prije %d min</item>
+        <item quantity="one">Prije %d min</item>
+        <item quantity="few">Prije %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Prije %d godina</item>
+        <item quantity="one">Prije %d godinu</item>
+        <item quantity="few">Prije %d godine</item>
+    </plurals>
+    <plurals name="dotted_app_label">
+        <item quantity="other">%1$s, ima %2$d obavijesti</item>
+        <item quantity="one">%1$s, ima %2$d obavijest</item>
+        <item quantity="few">%1$s, ima %2$d obavijesti</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavijesti</item>
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+    </plurals>
+    <plurals name="shortcuts_count">
+        <item quantity="other">%1$d prečaca</item>
+        <item quantity="one">%1$d prečac</item>
+        <item quantity="few">%1$d prečaca</item>
+    </plurals>
+    <plurals name="smartspace_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="smartspace_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+    </plurals>
+    <plurals name="widgets_count">
+        <item quantity="other">%1$d widgeta</item>
+        <item quantity="one">%1$d widget</item>
+        <item quantity="few">%1$d widgeta</item>
+    </plurals>
+</resources>

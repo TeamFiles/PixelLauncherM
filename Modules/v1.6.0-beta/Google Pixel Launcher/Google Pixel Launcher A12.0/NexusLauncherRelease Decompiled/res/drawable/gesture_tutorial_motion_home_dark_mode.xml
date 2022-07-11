@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    android:drawable="@drawable/$gesture_tutorial_motion_home_dark_mode__52"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <target
+        android:name="_R_G_L_2_G_L_4_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__0" />
+    <target
+        android:name="_R_G_L_2_G_L_4_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__1" />
+    <target
+        android:name="_R_G_L_2_G_L_4_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__2" />
+    <target
+        android:name="_R_G_L_2_G_L_3_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__3" />
+    <target
+        android:name="_R_G_L_2_G_L_3_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__4" />
+    <target
+        android:name="_R_G_L_2_G_L_3_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__5" />
+    <target
+        android:name="_R_G_L_2_G_L_2_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__6" />
+    <target
+        android:name="_R_G_L_2_G_L_2_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__7" />
+    <target
+        android:name="_R_G_L_2_G_L_2_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__8" />
+    <target
+        android:name="_R_G_L_2_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__9" />
+    <target
+        android:name="_R_G_L_2_G_L_1_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__10" />
+    <target
+        android:name="_R_G_L_2_G_L_1_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__11" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__12" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__13" />
+    <target
+        android:name="_R_G_L_2_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__14" />
+    <target
+        android:name="_R_G_L_2_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__15" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_11_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__16" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_10_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__17" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_9_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__18" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_8_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__19" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_7_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__20" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_6_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__21" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_5_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__22" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_4_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__23" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_3_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__24" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_2_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__25" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__26" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__27" />
+    <target
+        android:name="_R_G_L_1_G_L_4_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__28" />
+    <target
+        android:name="_R_G_L_1_G_L_3_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__29" />
+    <target
+        android:name="_R_G_L_1_G_L_3_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__30" />
+    <target
+        android:name="_R_G_L_1_G_L_2_G_L_2_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__31" />
+    <target
+        android:name="_R_G_L_1_G_L_2_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__32" />
+    <target
+        android:name="_R_G_L_1_G_L_2_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__33" />
+    <target
+        android:name="_R_G_L_1_G_L_2_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__34" />
+    <target
+        android:name="_R_G_L_1_G_L_1_G_L_2_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__35" />
+    <target
+        android:name="_R_G_L_1_G_L_1_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__36" />
+    <target
+        android:name="_R_G_L_1_G_L_1_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__37" />
+    <target
+        android:name="_R_G_L_1_G_L_1_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__38" />
+    <target
+        android:name="_R_G_L_1_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__39" />
+    <target
+        android:name="_R_G_L_1_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__40" />
+    <target
+        android:name="_R_G_L_1_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__41" />
+    <target
+        android:name="_R_G_L_1_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__42" />
+    <target
+        android:name="_R_G_L_1_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__43" />
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__44" />
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__45" />
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__46" />
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__47" />
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__48" />
+    <target
+        android:name="_R_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__49" />
+    <target
+        android:name="_R_G_L_0_G"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__50" />
+    <target
+        android:name="time_group"
+        android:animation="@drawable/$gesture_tutorial_motion_home_dark_mode__51" />
+</animated-vector>
